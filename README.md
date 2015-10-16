@@ -1,2 +1,2 @@
 # SecFileParser
-A python parser or SEC filings
+A python parser for SEC filings
