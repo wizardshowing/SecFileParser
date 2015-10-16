@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import os
 import sys
@@ -12,8 +12,8 @@ class SecFileParserCommand(object):
     def execute(self):
         """The main execution function.
         """
-        print "input_dir: %s" % (self.input_dir)
-        print "output_dir: %s" % (self.output_dir)
+        print('input_dir: :{}'.format(self.input_dir))
+        print('output_dir: :{}'.format(self.output_dir))
 
 
 
@@ -22,8 +22,8 @@ def run(args):
     try:
         runner = SecFileParserCommand(args[0],args[1])
         runner.execute()
-    except Exception, e:
-        print e
+    except Exception as e:
+        print("exception: {}".format(e))
         sys.exit(2)
 
 if __name__ == '__main__':
