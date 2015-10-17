@@ -10,14 +10,18 @@ from bs4 import (BeautifulSoup,
 class SecFileReader(object):
     text_version = "text_version"
     paragraph_version = 'paragraph_version'
+    start_location = 'start_location'
+    end_location = 'end_location'
+    target_text = 'text'
     def __init__(self):
         self.file_name = None
         self.soup = None
+        self.original_text_version = None
     
     def parseTextVersion(self):
         if not self.soup: yield None
-        text_version = self.soup.get_text("\n")
-        yield (self.text_version, text_version)
+        self.text_version = self.soup.get_text("\n")
+        yield (self.text_version, self.text_version)
     
     def parseParagraphs(self):
         if not self.soup: yield None
@@ -28,11 +32,10 @@ class SecFileReader(object):
             parents = []
             #Check if this particular tag contains a 
             if tag.get_text().find("$") >=0:
-                #import pdb; pdb.set_trace()
                 parents = [each_parent.name for each_parent in tag.parents]
-                    
                 if 'table' not in parents and (tag.get_text().strip()):
                         retval = True
+            
             if retval is True:
                 print("good tag: {}".format(tag.get_text()))
                 print("good tag.parents: {}\n---------------------".format(parents))
@@ -46,7 +49,15 @@ class SecFileReader(object):
         for each_tag in only_paragraph_tags:
             for each_content in each_tag.contents:
                 if paragraph_is_qualified(each_tag):
-                    yield (self.paragraph_version,each_content.get_text())
+                    _text = each_content.get_text()
+                    _start_location = self.original_text_version.find(_text)
+                    _end_location = _start_location + len(_text)
+                    retval = {
+                        self.target_text: _text,
+                        self.start_location: _start_location,
+                        self.end_location: _end_location
+                    }
+                    yield (self.paragraph_version,retval)
     
     def parse(self, file_name = None):
         self.file_name = file_name
@@ -54,6 +65,7 @@ class SecFileReader(object):
             yield None
         with open(self.file_name) as _fd:
             self.soup = BeautifulSoup(_fd,"html.parser")
+            self.original_text_version = str(self.soup)
             #yieeld text file items
             for each_object in self.parseTextVersion():
                 yield each_object
@@ -69,6 +81,7 @@ class SecFileParserCommand(object):
         self.output_dir = output_dir
         self.parser = SecFileReader()
         self.current_input_file = None
+        self.paragraphs_file = "{}pargraphs.txt".format(self.output_dir)
     
     def writeTextFile(self,file_content):
         if not self.current_input_file: return
@@ -79,16 +92,31 @@ class SecFileParserCommand(object):
             _fd.write(file_content)
     
     def writePargrapsFile(self,file_content):
-        new_file_name = "{}pargraphs.txt".format(self.output_dir)
-        with open(new_file_name,"a") as _fd:
-            _fd.write("\n\t{\n\t"+file_content+"\n\t}\n\t")
+        #import pdb; pdb.set_trace()
+        with open(self.paragraphs_file,"a") as _fd:
+            _fd.write("{}text:{}\nstart:{}\nend:{}\n{}".format(
+                "\n\t{\n\t",
+                file_content[SecFileReader.target_text],
+                file_content[SecFileReader.start_location],
+                file_content[SecFileReader.end_location],
+                "\n\t}\n\t"
+                )
+            )
     
     def execute(self):
         """The main execution function.
         """
         targeted_files = '{}*'.format(self.input_dir)
         found_files = glob.glob('{}*'.format(targeted_files))
-
+        
+        try:
+            os.remove(self.paragraphs_file)
+        except:
+            pass
+        
+        with open(self.paragraphs_file,"a") as _fd:
+            _fd.write("[")
+        
         for each_file in found_files:
             self.current_input_file = each_file
         
@@ -98,7 +126,10 @@ class SecFileParserCommand(object):
                 if each_object[0] is SecFileReader.text_version:
                     self.writeTextFile(each_object[1])
                 elif each_object[0] is SecFileReader.paragraph_version:
-                    self.writePargrapsFile(each_object[1])   
+                    self.writePargrapsFile(each_object[1])
+        
+        with open(self.paragraphs_file,"a") as _fd:
+            _fd.write("]")
         
 
 
@@ -110,6 +141,7 @@ def run(args):
         runner.execute()
     except Exception as e:
         print("exception: {}".format(e))
+        raise
         sys.exit(2)
 
 if __name__ == '__main__':
