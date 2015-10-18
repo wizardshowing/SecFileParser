@@ -22,17 +22,32 @@ your Lunix/MAC OS based Operating System.
 For a quick run, execute the following on your terminal:
 
 
-1) cd ~
-2) git clone https://github.com/alchemiccoruja/SecFileParser.git
+1) cd ~;
+2) git clone https://github.com/alchemiccoruja/SecFileParser.git;
    NOTE: If you dont have git installed, you can
    download a zip file of the repository
    here https://github.com/alchemiccoruja/SecFileParser
    Just look for  the 'DownloadZip' button
    unzip and the file and proceed to step (3) below.
-3) cd SecFileParser
-4) source bin/activate
-5) bin/python3 new_construct/runner.py  new_construct/input/ new_construct/output/
-6) ls -lrt new_construct/output/
+3) cd SecFileParser;
+4) source bin/activate;
+5) bin/python3 new_construct/runner.py  new_construct/input/ new_construct/output/;
+6) ls -lrt new_construct/output/;
 
                 MORE EXPLANATION
-The commands will 
+The commands will download the SecFilParser git repository
+and run it with the sample SEC filling document.
+You will find the sample document in SecFileParser/new_construct/input/
+Output documents will be in SecFileParser/new_construct/output/
+
+
+                LIBRARIES USED
+os
+os.path
+sys
+glob
+BeautifulSoup
+pip3
+python3
+virtualenv
+git
