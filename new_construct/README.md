@@ -4,11 +4,11 @@ A python parser for SEC filings
                     USAGE
 
 Recommended Software:
-1) Git: https://git-scm.com/
+1) Git 1.7.9.5: https://git-scm.com/
         For downloading the this git repository.
 
 Required Software:
-1) virtualen: https://virtualenv.pypa.io/en/latest/
+1) virtualen 13.1.2: https://virtualenv.pypa.io/en/latest/
               For running the exercise sandbox (virtual environment)
                     
                FOR A QUICK RUN
@@ -55,23 +55,15 @@ as needed.
 
 
                 LIBRARIES USED
-os
+BeautifulSoup 4
 
-os.path
+pip3 (pip 7.1.2)
 
-sys
+python3 (3.3.5)
 
-glob
+virtualenv 13.1.2
 
-BeautifulSoup
-
-pip3
-
-python3
-
-virtualenv
-
-git
+git 1.7.9.5
 
 libxml
 
