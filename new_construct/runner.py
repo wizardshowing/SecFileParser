@@ -4,8 +4,7 @@ import os
 import os.path
 import sys
 import glob
-from bs4 import (BeautifulSoup,
-                 SoupStrainer)
+from bs4 import BeautifulSoup
 
 class SecFileReader(object):
     text_version = "text_version"
