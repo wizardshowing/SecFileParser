@@ -67,7 +67,7 @@ class SecFileReader(object):
         if not self.file_name:
             yield None
         with open(self.file_name) as _fd:
-            self.soup = BeautifulSoup(_fd,"html.parser")
+            self.soup = BeautifulSoup(_fd,"html5lib")
             self.original_text_version = self.soup.get_text()
             #yieeld text file items
             for each_object in self.parseTextVersion():
@@ -85,6 +85,7 @@ class SecFileParserCommand(object):
         self.parser = SecFileReader()
         self.current_input_file = None
         self.paragraphs_file = "{}pargraphs.txt".format(self.output_dir)
+        self.added_indecies = []
     
     def writeTextFile(self,file_content):
         if not self.current_input_file: return
@@ -95,16 +96,21 @@ class SecFileParserCommand(object):
             _fd.write(file_content)
     
     def writePargrapsFile(self,file_content):
-        #import pdb; pdb.set_trace()
-        with open(self.paragraphs_file,"a") as _fd:
-            _fd.write("{}text:{}\nstart:{}\nend:{}\n{}".format(
-                "\n\t{\n\t",
-                file_content[SecFileReader.paragraph_text],
-                file_content[SecFileReader.start_location],
-                file_content[SecFileReader.end_location],
-                "\n\t}\n\t"
+        #work-around to prevent multiple inserts for now
+        if file_content[SecFileReader.start_location] in self.added_indecies:
+            return
+        else:
+            with open(self.paragraphs_file,"a") as _fd:
+                _fd.write("{}text:{}\nstart:{}\nend:{}\n{}".format(
+                    "\n\t{\n\t",
+                    file_content[SecFileReader.paragraph_text],
+                    file_content[SecFileReader.start_location],
+                    file_content[SecFileReader.end_location],
+                    "\n\t}\n\t"
+                    )
                 )
-            )
+                #Keep track of paragraphs that has been inserted into the ouput file
+                self.added_indecies.append(file_content[SecFileReader.start_location])
     
     def execute(self):
         """The main execution function.
@@ -123,6 +129,7 @@ class SecFileParserCommand(object):
 
         for each_file in found_files:
             self.current_input_file = each_file
+            self.added_indecies = []
         
             for each_object in self.parser.parse(self.current_input_file):
                 if each_object is None:

@@ -1,1065 +1,841 @@
 [
 	{
 	text:The aggregate market value of the Common Stock held by non-affiliates of the Company as of June 28, 2013 was $613,399,995.  For purposes of this calculation only, (i) shares of Common Stock are deemed to have a market value of $44.55 per share, the closing price of the Common Stock as reported on the New York Stock Exchange on June 28, 2013, and (ii) each of the Company's executive officers and directors is deemed to be an affiliate of the Company.
-start:2691
-end:3143
+start:2700
+end:3152
 
 	}
 	
 	{
 	text:As of February 6, 2014, there were 14,406,540 shares of Common Stock outstanding with a par value of $1 per share.
-start:3143
-end:3257
+start:3152
+end:3266
 
 	}
 	
 	{
 	text:The Company's total backlog of unshipped orders at December 31, 2013 and 2012 was $31.7 million and $34.8 million, respectively.  The backlog is comprised of firm orders and signed contractual commitments, or portions of such commitments that call for shipment within 12 months.  Backlog can be significantly affected by the timing of orders for large projects and the amounts can vary due to the timing of work performed.  
-start:20498
-end:20922
+start:20507
+end:20931
 
 	}
 	
 	{
 	text:Expenditures for research and development activities relating to the development of new products, the improvement of existing products and manufacturing process improvements were $10.5 million in 2013 compared to $9.6 million in 2012 and $8.1 million in 2011.  Research and development activities are primarily sponsored by the Company.  The Company also engages in some joint research and development with other companies.
-start:22105
-end:22528
+start:22114
+end:22537
 
 	}
 	
 	{
 	text:The graph assumes $100 invested on December 31, 2008.  It further assumes the reinvestment of dividends.  The returns of each component company in the peer groups have been weighted based on such company's relative market capitalization.
-start:48031
-end:48268
+start:48040
+end:48277
 
 	}
 	
 	{
 	text:December 31 200820092010201120122013Badger Meter, Inc.Return % 39.11%12.55%(32.27)%63.98%16.64% Cumulative $$100.00$139.11$156.57$106.04$173.89$202.82Russell 2000 IndexReturn % 27.09%26.81%(4.18)%16.39%38.83% Cumulative $$100.00$127.09$161.17$154.44$179.75$249.53Peer GroupReturn % 12.10%25.66%(1.16)%37.20%43.26% Cumulative $$100.00$112.10$140.87$139.23$191.03$273.67
-start:48268
-end:48636
-
-	}
-	
-	{
-	text:December 31 200820092010201120122013Badger Meter, Inc.Return % 39.11%12.55%(32.27)%63.98%16.64% Cumulative $$100.00$139.11$156.57$106.04$173.89$202.82Russell 2000 IndexReturn % 27.09%26.81%(4.18)%16.39%38.83% Cumulative $$100.00$127.09$161.17$154.44$179.75$249.53Peer GroupReturn % 12.10%25.66%(1.16)%37.20%43.26% Cumulative $$100.00$112.10$140.87$139.23$191.03$273.67
-start:48268
-end:48636
+start:48277
+end:48645
 
 	}
 	
 	{
 	text: Years ended December 31,(In thousands except per share data)2013201220112010200920082007200620052004Operating results          Net sales$334,122319,660262,915276,634250,337279,552234,816229,754203,637188,663Research and development$10,5049,8578,0867,1646,9107,1365,7145,4585,3434,572Earnings from continuing operations before income taxes$38,00943,47127,34944,43842,33339,55529,32527,48925,66420,325Earnings from continuing operations$24,61728,03219,16128,66226,78025,08418,38616,56816,16412,056Earnings (loss) from discontinued  operations (1)$  n/an/an/an/a7,390n/a(1,929)(9,020)(2,911)(2,423)Net earnings$24,61728,03219,16128,66234,17025,08416,4577,54813,2539,633Earnings from continuing operations to sales7.4%8.8%7.3%10.4%10.7%9.0%7.8%7.2%7.4%6.4%Per Common share          Basic earnings from continuing operations  $1.711.961.281.921.811.721.291.191.200.91Basic earnings (loss) from discontinued operations$  n/an/an/an/a0.50n/a(0.13)(0.65)(0.22)(0.18)Total basic earnings$1.711.961.281.922.311.721.160.540.980.73Diluted earnings from continuing operations$1.701.951.271.911.791.691.261.151.150.89Diluted earnings (loss) from discontinued operations $  n/an/an/an/a0.49n/a(0.13)(0.63)(0.20)(0.18)Total diluted earnings$1.701.951.271.912.281.691.130.520.950.71Cash dividends declared: Common Stock$0.700.660.600.520.460.400.340.310.290.28Price range - high$56.3648.6045.4745.4944.9062.7446.4332.2025.6316.00Price range - low$41.8829.3026.8632.5822.5017.5823.0019.5113.238.53Closing price$54.5047.4129.4344.2239.8229.0244.9527.7019.6214.98Book value *$13.6411.9611.8511.199.657.506.335.075.364.77Shares outstanding at year-end          Common Stock14,41214,31415,12315,04814,97314,80814,51914,15413,69613,444Financial position          Working capital *$29,12227,29478,78264,65860,41935,74038,72533,64832,92325,461Current ratio *1.3 to 11.3 to 14.5 to 13.0 to 13.3 to 11.7 to 11.9 to 11.7 to 11.8 to 11.6 to 1Net cash provided by operations$34,81834,80131,31718,39636,58826,14327,93416,75018,3616,297Capital expenditures$14,3118,2025,3369,2387,75013,23715,97111,0609,0885,582Total assets$316,058290,453218,910215,864191,016195,358150,301139,383145,867142,961Short-term and current portion of long-term debt$70,04566,7301,79012,8788,00319,67013,58217,03713,32822,887Long-term debt$  n/an/an/an/an/a5,5043,1295,92815,36014,819Shareholders' equity (2)$196,563171,247179,281168,383144,461111,02391,96971,81973,41664,066Debt as a percent of total debt and equity *26.3%28.0%1.0%7.1%5.2%18.5%15.4%26.8%30.1%37.0%Return on shareholders' equity *12.5%16.4%10.7%17.0%18.5%22.6%20.0%23.1%22.0%18.8%Price/earnings ratio *32.124.323.223.222.217.235.724.117.116.8
-start:49273
-end:51928
-
-	}
-	
-	{
-	text: Years ended December 31,(In thousands except per share data)2013201220112010200920082007200620052004Operating results          Net sales$334,122319,660262,915276,634250,337279,552234,816229,754203,637188,663Research and development$10,5049,8578,0867,1646,9107,1365,7145,4585,3434,572Earnings from continuing operations before income taxes$38,00943,47127,34944,43842,33339,55529,32527,48925,66420,325Earnings from continuing operations$24,61728,03219,16128,66226,78025,08418,38616,56816,16412,056Earnings (loss) from discontinued  operations (1)$  n/an/an/an/a7,390n/a(1,929)(9,020)(2,911)(2,423)Net earnings$24,61728,03219,16128,66234,17025,08416,4577,54813,2539,633Earnings from continuing operations to sales7.4%8.8%7.3%10.4%10.7%9.0%7.8%7.2%7.4%6.4%Per Common share          Basic earnings from continuing operations  $1.711.961.281.921.811.721.291.191.200.91Basic earnings (loss) from discontinued operations$  n/an/an/an/a0.50n/a(0.13)(0.65)(0.22)(0.18)Total basic earnings$1.711.961.281.922.311.721.160.540.980.73Diluted earnings from continuing operations$1.701.951.271.911.791.691.261.151.150.89Diluted earnings (loss) from discontinued operations $  n/an/an/an/a0.49n/a(0.13)(0.63)(0.20)(0.18)Total diluted earnings$1.701.951.271.912.281.691.130.520.950.71Cash dividends declared: Common Stock$0.700.660.600.520.460.400.340.310.290.28Price range - high$56.3648.6045.4745.4944.9062.7446.4332.2025.6316.00Price range - low$41.8829.3026.8632.5822.5017.5823.0019.5113.238.53Closing price$54.5047.4129.4344.2239.8229.0244.9527.7019.6214.98Book value *$13.6411.9611.8511.199.657.506.335.075.364.77Shares outstanding at year-end          Common Stock14,41214,31415,12315,04814,97314,80814,51914,15413,69613,444Financial position          Working capital *$29,12227,29478,78264,65860,41935,74038,72533,64832,92325,461Current ratio *1.3 to 11.3 to 14.5 to 13.0 to 13.3 to 11.7 to 11.9 to 11.7 to 11.8 to 11.6 to 1Net cash provided by operations$34,81834,80131,31718,39636,58826,14327,93416,75018,3616,297Capital expenditures$14,3118,2025,3369,2387,75013,23715,97111,0609,0885,582Total assets$316,058290,453218,910215,864191,016195,358150,301139,383145,867142,961Short-term and current portion of long-term debt$70,04566,7301,79012,8788,00319,67013,58217,03713,32822,887Long-term debt$  n/an/an/an/an/a5,5043,1295,92815,36014,819Shareholders' equity (2)$196,563171,247179,281168,383144,461111,02391,96971,81973,41664,066Debt as a percent of total debt and equity *26.3%28.0%1.0%7.1%5.2%18.5%15.4%26.8%30.1%37.0%Return on shareholders' equity *12.5%16.4%10.7%17.0%18.5%22.6%20.0%23.1%22.0%18.8%Price/earnings ratio *32.124.323.223.222.217.235.724.117.116.8
-start:49273
-end:51928
+start:49282
+end:51937
 
 	}
 	
 	{
 	text:On April 1, 2013, the Company purchased Aquacue, Inc. (“Aquacue”) of Los Gatos, California.   The Aquacue acquisition provides the Company with intellectual property that complements and expands the Company’s advanced metering analytics offerings by adding an integrated software platform that allows utility managers to monitor and control their water systems, while providing water management data to consumers.  Sales of Aquacue products were immaterial for 2013.  The purchase price was $13.8 million in cash, including a small working capital adjustment.  The Company merged Aquacue into Badger Meter, Inc. on December 31, 2013.  This acquisition is further described in Note 3 “Acquisitions” in the accompanying Notes to Consolidated Financial Statements in Part II, Item 8 of this 2013 Annual Report on Form 10-K.
-start:58119
-end:58939
+start:58128
+end:58948
 
 	}
 	
 	{
 	text:On January 31, 2012, the Company completed its acquisition of 100% of the outstanding common stock of Racine Federated, Inc. (“Racine Federated”) of Racine, Wisconsin and its subsidiary Premier Control Technologies, Ltd. (“PCT”) located in Thetford, England for approximately $57.3 million in cash, plus a working capital adjustment of $0.3 million.  During the fourth quarter of 2012, the Company sold PCT for a nominal amount after the majority of its functions were absorbed by the Company's European subsidiary.  The Company also merged Racine Federated into Badger Meter, Inc. on December 31, 2012.  Racine Federated manufactures and markets flow meters for the water industry as well as various industrial metering and specialty products.  These products complement and expand the Company's existing lines for the global flow measurement business.  This acquisition is further described in Note 3 “Acquisitions” in the accompanying Notes to Consolidated Financial Statements in Part II, Item 8 of this 2013 Annual Report on Form 10-K.
-start:58939
-end:59979
+start:58948
+end:59988
 
 	}
 	
 	{
 	text:On January 26, 2011, the Company purchased Remag, AG (“Remag”) of Bern, Switzerland for $4.9 million.  Remag distributes a line of precision flow measurement products, some of which they manufacture, for the global industrial market.  Their small turbine meters complement and expand the Company's existing line of industrial flow products.  This acquisition is further described in Note 3 “Acquisitions” in the accompanying Notes to Consolidated Financial Statements in Part II, Item 8 of this 2013 Annual Report on Form 10-K.
-start:59979
-end:60506
+start:59988
+end:60515
 
 	}
 	
 	{
 	text:Net sales in 2013 increased $14.4 million, or 4.5%, to $334.1 million from $319.7 million in 2012.  The overall increase was due primarily to higher sales of municipal water products as a result of higher volumes of units sold, offset somewhat by lower sales of industrial and specialty products.
-start:62855
-end:63151
+start:62864
+end:63160
 
 	}
 	
 	{
 	text:Municipal water sales increased $17.9 million, or 8.4%, to $231.1 million in 2013 from $213.2 million in 2012.  These sales represented 69.2% of total net sales in 2013 compared to 66.7% in 2012.  The sales increase was due to higher sales of residential meters sold both with and without technology as well as higher commercial meter sales.  Sales of residential meters and related technology increased 6.9% for the year due to higher volumes of product sold, slightly offset by lower average prices.  Commercial water meter sales increased 15.2% in 2013 compared to 2012 due primarily to higher volumes of product sold.  The Company believes the net overall increase for the year was a continuation of a return to normal buying patterns that began in 2012, although sales were negatively affected in early 2013 by a colder and snowier winter and the effects of Hurricane Sandy.  In addition, part of the increase was due to additional sales to former customers of a competitor that ceased North American production of mechanical meters on June 30, 2013.  The Company estimates sales to these customers were approximately $4.1 million in 2013.   
-start:63151
-end:64298
+start:63160
+end:64307
 
 	}
 	
 	{
 	text:Industrial flow products represented 27.3% of total net sales in 2013 compared to 29.0% in 2012.  These sales decreased $1.6 million, or 1.7%, to $91.2 million from $92.8 million in 2012.  Sales of products within this category were affected by general economic conditions which resulted in weaker orders.  
-start:64298
-end:64605
+start:64307
+end:64614
 
 	}
 	
 	{
 	text:Specialty products represented 3.5% of total net sales in 2013 compared to 4.3% in 2012.  These sales decreased $1.9 million in 2013, or 13.9%, to $11.8 million from $13.7 million in 2012.  The decline was caused by lower sales of radios into the natural gas market and lower sales of concrete vibrators.
-start:64605
-end:64909
+start:64614
+end:64918
 
 	}
 	
 	{
 	text:International sales for municipal water meters and related technologies are generally made to customers in Canada and Mexico, which use similar mechanical technology and standards as customers in the U.S.  International sales for industrial flow and specialty products are generally made throughout the world.  In Europe, sales are made primarily in Euros.  Other international sales are made in U.S. dollars or local currencies.  International sales decreased 9.3% to $44.1 million in 2013 from $48.6 million in 2012 primarily due to the timing of large projects and general economic conditions.  
-start:64909
-end:65507
+start:64918
+end:65516
 
 	}
 	
 	{
 	text:Net sales in 2012 increased $56.8 million, or 21.6%, to $319.7 million from $262.9 million in 2011.  The overall increase was due to the inclusion of Racine Federated’s net sales for eleven months of the year and higher municipal water sales, offset somewhat by lower sales of radios to natural gas utilities.  Racine Federated’s sales for the eleven months ended December 31, 2012 were $41.3 million. 
-start:65507
-end:65909
+start:65516
+end:65918
 
 	}
 	
 	{
 	text:Municipal water sales increased $22.9 million, or 12.0%, to $213.2 million in 2012 from $190.3 million in 2011.  These sales represented 66.7% of total net sales in 2012 compared to 72.4% in 2011.  The sales increase was due to higher sales of residential meters sold with technology as well as higher commercial meter sales.  Sales of meters with technology increased 11.6% for the year due to higher volumes of product sold.  Sales of manually read residential meters were essentially flat between years.  Commercial water meter sales increased 19.5% in 2012 compared to 2011 due to higher volumes of product sold.  The Company believes the net overall increase for the year was due to normal buying patterns beginning to resume after a period where there were negative factors affecting market conditions.  These factors included lingering concerns about municipal spending, which resulted in delayed buying decisions, and slower housing starts.  In addition, the Company’s introduction in 2011 of the next generation of the ORION product lengthened the sales cycle for water utilities as they evaluated this new technology.  Weather may have also played a role as poor weather in the Midwest and Northeast had a negative impact on sales in early 2011 due to its effects on budget demands and installation rates, which did not recur in early 2012.
-start:65909
-end:67259
+start:65918
+end:67268
 
 	}
 	
 	{
 	text:Industrial flow products represented 29.0% of total net sales in 2012 compared to 21.5% in 2011.  These sales increased $36.2 million, or 64.0%, to $92.8 million from $56.6 million in 2011.  As previously noted, Racine Federated was acquired on January 31, 2012 and Racine Federated’s sales were included from that point forward.  Within this product grouping, Racine Federated’s sales were $32.6 million.  The remainder of the increase was due to higher sales in most of the remaining industrial flow product lines. 
-start:67259
-end:67776
+start:67268
+end:67785
 
 	}
 	
 	{
 	text:Specialty products represented 4.3% of total net sales in 2012 compared to 6.1% in 2011.  These sales decreased $2.3 
-start:67776
-end:67893
+start:67785
+end:67902
 
 	}
 	
 	{
 	text:million in 2012, or 14.4%, to $13.7 million from $16.0 million in 2011.  Included in this product grouping was $8.7 million of sales from Racine Federated.  Without these sales, specialty products would have shown a larger sales decrease due to lower sales of radios into the natural gas market.  The 2011 sales included higher sales of radios to one particular natural gas customer that did not recur in 2012.
-start:67895
-end:68305
+start:67904
+end:68314
 
 	}
 	
 	{
 	text:International sales for municipal water meters and related technologies are generally made to customers in Canada and Mexico, which use similar mechanical technology and standards as customers in the U.S.  International sales for industrial flow and specialty products are generally made throughout the world.  In Europe, sales are made primarily in Euros.  Other international sales are made in U.S. dollars or local currencies.  International sales increased 53.8% to $48.6 million in 2012 from $31.6 million in 2011 primarily due to the addition of Racine Federated’s product lines.  
-start:68305
-end:68892
+start:68314
+end:68901
 
 	}
 	
 	{
 	text:Selling, engineering and administration expenses in 2013 were $0.1 million, or 0.1% higher than these expenses in 2012.  The 2012 amounts included a $1.0 million charge related to the write down of the Company’s investment in an emerging technology company.  The 2013 amounts include intangible amortization charges associated with the Aquacue acquisition, charges associated with a legal issue and normal inflationary increases.  Offsetting these increases were lower employee incentives and continuing cost control measures.
-start:69989
-end:70515
+start:69998
+end:70524
 
 	}
 	
 	{
 	text:Selling, engineering and administration expenses in 2012 increased $15.5 million, or 24.9%, over these expenses in 2011.  The increase was primarily attributable to the acquisition of Racine Federated and amortization of intangibles acquired, which were not included in the results for 2011.  The remainder of the increase was due to higher employee incentives and normal inflationary increases, offset by continuing cost control measures.  The 2012 amounts include a $1.0 million charge related to the write down of the Company’s investment in an emerging technology company and a $1.1 million non-cash pension charge as a result of payouts from the pension plan occurring faster than the assumed rate.
-start:70515
-end:71218
+start:70524
+end:71227
 
 	}
 	
 	{
 	text:Operating earnings in 2013 decreased $5.4 million, or 12.1%, to $39.1 million compared to $44.5 million in 2012.  The decrease was the result of the lower gross margins resulting from the mix of sales, the lower prices charged to customers of a former competitor, higher obsolescence costs and higher alloy costs, all offset somewhat by the higher net sales.
-start:71236
-end:71594
+start:71245
+end:71603
 
 	}
 	
 	{
 	text:Operating earnings in 2012 increased $17.0 million, or 61.8%, to $44.5 million compared to $27.5 million in 2011, as a net result of the higher sales of municipal water and industrial flow products, offset somewhat by higher selling, engineering and administration expenses.  In addition, lower costs of certain raw materials also contributed to the increased operating earnings.  
-start:71594
-end:71975
+start:71603
+end:71984
 
 	}
 	
 	{
 	text:Interest expense, net was $1.1 million in 2013 compared to $1.0 million in 2012.  The slight increase was due to higher average borrowings due in part to the Aquacue acquisition in April 2013.  
-start:72004
-end:72198
+start:72013
+end:72207
 
 	}
 	
 	{
 	text:Interest expense, net was $1.0 million in 2012 compared to $0.2 million in 2011.  The increase was due primarily to higher borrowings in 2012 associated with the acquisition of Racine Federated and the Company’s stock repurchase program.
-start:72198
-end:72435
+start:72207
+end:72444
 
 	}
 	
 	{
 	text:Income taxes as a percentage of earnings before income taxes were 35.2%, 35.5% and 29.9% for 2013, 2012 and 2011, respectively.  The 2011 results include recognition of previously unrecognized tax benefits for certain deductions that were taken on prior tax returns.  These benefits total approximately $1.3 million and were recognized in earnings in 2011 due to the realization that such benefits became more likely than not upon the conclusion of an IRS audit of the Company’s 2009 Federal income tax return.  Without these benefits, the provision for income taxes as a percentage of earnings before income taxes for 2011 would have been 34.8%.  The variances in all three years presented are due to the changes in state taxes depending on each year’s sales and the relationship of foreign and domestic income which are taxed at different rates. 
-start:72449
-end:73297
+start:72458
+end:73306
 
 	}
 	
 	{
 	text:Because of the decreased operating earnings, net earnings were $24.6 million in 2013 compared to $28.0 million in 2012.  On a diluted basis, earnings per share were $1.70 in 2013 compared to $1.95 in 2012.
-start:73346
-end:73551
+start:73355
+end:73560
 
 	}
 	
 	{
 	text: As a result of the increased operating earnings, offset somewhat by a higher effective tax rate, net earnings were $28.0 million in 2012 compared to $19.2 million in 2011.  On a diluted basis, earnings per share were $1.95 in 2012 compared to $1.27 in 2011.
-start:73551
-end:73809
+start:73560
+end:73818
 
 	}
 	
 	{
 	text:The main sources of liquidity for the Company are cash from operations and borrowing capacity.  In addition, depending on market conditions, the Company may access the capital markets to strengthen its capital position and to provide additional liquidity for general corporate purposes.  Cash provided by operations in 2013 was $34.8 million compared to $34.8 million in 2012.  The 2013 amount had lower earnings, an increase in receivables and a decrease in certain liabilities from 2012, while the 2012 amounts contained an increase in inventories and a pension payment that did not recur in 2013.
-start:73844
-end:74443
+start:73853
+end:74452
 
 	}
 	
 	{
 	text:Receivables at December 31, 2013 were $50.1 million compared to $45.6 million at the end of 2012.  The increase was due in part to higher sales in the fourth quarter of 2013 compared to the fourth quarter of 2012.  The Company believes its net receivables balance is fully collectible.
-start:74443
-end:74728
+start:74452
+end:74737
 
 	}
 	
 	{
 	text:Inventories at December 31, 2013 were $60.9 million and substantially unchanged from $61.0 million at December 31, 2012.  
-start:74728
-end:74850
+start:74737
+end:74859
 
 	}
 	
 	{
 	text:Property, plant and equipment increased as a net result of capital expenditures offset by depreciation expense.  Capital expenditures totaled $14.3 million in 2013 compared to $8.2 million in 2012.  These amounts vary due to the timing of capital expenditures.  The Company believes it has adequate capacity to increase production levels with minimal additional capital expenditures.
-start:74850
-end:75233
+start:74859
+end:75242
 
 	}
 	
 	{
 	text:Intangible assets decreased to $57.3 million at December 31, 2013 from $58.4 million at December 31, 2012.  This is the net impact of a $3.9 million increase due to the acquisition of Aquacue, more than offset by normal amortization expense.  Also, as a result of the Aquacue acquisition, goodwill increased to $44.7 million at December 31, 2013 compared to $35.9 million at December 31, 2012. 
-start:75233
-end:75627
+start:75242
+end:75636
 
 	}
 	
 	{
 	text:Due to higher than expected returns for the Company’s pension assets, there was a prepaid pension amount of $4.3 million at December 31, 2013.  At December 31, 2012, a pension liability of $4.2 million was included in other accrued employee benefits, which saw a reduction to $4.4 million at December 31, 2013 from $8.9 million at December 31, 2012.    
-start:75627
-end:75980
+start:75636
+end:75989
 
 	}
 	
 	{
 	text:Payables increased at December 31, 2013 to $18.6 million compared to $15.6 million at December 31, 2012.  The 2012 amount included $4.6 million owed to the sellers of Racine Federated that was paid July 31, 2013.  The 2013 amount includes $3.0 million owed to the sellers of Aquacue that will be paid in 2014.  The remainder of the increase was due to the timing of purchases.  
-start:76248
-end:76626
+start:76257
+end:76635
 
 	}
 	
 	{
 	text:Accrued compensation and employee benefits decreased $2.5 million to $7.3 million at December 31, 2013 from $9.8 million at December 31, 2012 primarily due to lower accrued employee incentives.  
-start:76626
-end:76821
+start:76635
+end:76830
 
 	}
 	
 	{
 	text:The overall increase in total shareholders’ equity from $171.2 million at December 31, 2012 to $196.6 million at December 31, 2013 was principally the result of net earnings, stock options exercised and a reduction in Accumulated Other Comprehensive Loss as a result of favorable actuarial gains, net of their tax effect, offset by dividends paid.  
-start:76823
-end:77172
+start:76832
+end:77181
 
 	}
 	
 	{
 	text:The Company’s financial condition remains strong.  In May 2012, the Company signed a new credit agreement that increased its principal line of credit from $90.0 million to $125.0 million with its primary lender for a three year period.  The line was reduced by $16.7 million in May 2013 and will be reduced by a similar amount in May 2014.  While the facility is unsecured, there are a number of financial covenants with which the Company is in compliance.  The Company believes that its operating cash flows, available borrowing capacity, and its ability to raise capital provide adequate resources to fund ongoing operating requirements, future capital expenditures and the development of new products.  The Company continues to take advantage of its local commercial paper market and carefully monitors the current borrowing market.  The Company had $47.8       million of unused credit lines available at December 31, 2013. 
-start:77172
-end:78100
+start:77181
+end:78109
 
 	}
 	
 	{
 	text:In 2010, the Company restructured the outstanding debt of its Employee Savings and Stock Option Plan (the “ESSOP”) by loaning the ESSOP $0.5 million to repay a loan to a third party and loaning the ESSOP an additional $1.0 million to purchase additional shares of the Company's Common Stock for future 401(k) savings plan matches under a program that will expire on December 31, 2020.  Under this program, the Company agreed to pay the principal and interest on the new loan amount of $1.5 million.  The receivable from the ESSOP and the related obligation were therefore netted to zero on the Company's Consolidated Balance Sheets at December 31, 2013 and 2012.  The terms of the loan call for equal payments of principal with the final payment due on December 31, 2020.  At December 31, 2013, $1.1 million of the loan balance remains.  
-start:78224
-end:79062
+start:78233
+end:79071
 
 	}
 	
 	{
 	text: Payments due by period Total Less than1 year 1-3 years 3-5 years Beyond (In thousands)Short-term debt$70,045 $70,045 $— $— $—Operating leases12,891 1,681 2,546 1,994 6,670Total contractual obligations$82,936 $71,726 $2,546 $1,994 $6,670
-start:79221
-end:79458
-
-	}
-	
-	{
-	text: Payments due by period Total Less than1 year 1-3 years 3-5 years Beyond (In thousands)Short-term debt$70,045 $70,045 $— $— $—Operating leases12,891 1,681 2,546 1,994 6,670Total contractual obligations$82,936 $71,726 $2,546 $1,994 $6,670
-start:79221
-end:79458
+start:79230
+end:79467
 
 	}
 	
 	{
 	text:Other than items included in the preceding table, as of December 31, 2013, the Company had no additional material purchase obligations other than those created in the ordinary course of business related to inventory and property, plant and equipment, which generally have terms of less than 90 days.  The Company also has long-term obligations related to its pension and postretirement plans which are discussed in detail in Note 7 “Employee Benefit Plans” in the Notes to Consolidated Financial Statements in Part II, Item 8 of this 2013 Annual Report on Form 10-K.  As of the most recent actuarial measurement date, the Company is not required to make a minimum contribution for its pension plan for the 2014 calendar year.  Postretirement medical claims are paid by the Company as they are submitted, and they are anticipated to be $0.5 million in 2014 based on actuarial estimates; however, these amounts can vary significantly from year to year because the Company is self-insured.
-start:79462
-end:80448
+start:79471
+end:80457
 
 	}
 	
 	{
 	text:The Company's short-term debt on December 31, 2013 was floating rate debt with market values approximating carrying value.  Future annual interest costs for short-term debt will fluctuate based upon short-term interest rates.  For the short-term debt on hand on December 31, 2013, the effect of a 1% change in interest rates is approximately $0.7 million.
-start:92693
-end:93048
+start:92702
+end:93057
 
 	}
 	
 	{
 	text:  December 31, 2013 2012 (Dollars in thousands)AssetsCurrent assets:   Cash$7,263 $6,554Receivables50,133 45,584Inventories:   Finished goods17,704 19,872Work in process12,330 13,340Raw materials30,905 27,785Total inventories60,939 60,997Prepaid expenses and other current assets3,994 4,343Deferred income taxes4,834 3,896Total current assets127,163 121,374Property, plant and equipment, at cost:   Land and improvements8,941 8,919Buildings and improvements55,018 51,090Machinery and equipment100,179 92,751 164,138 152,760Less accumulated depreciation(87,722) (82,276)Net property, plant and equipment76,416 70,484Intangible assets, at cost less accumulated amortization57,317 58,351Prepaid pension4,312 —Other assets6,155 4,314Goodwill44,695 35,930Total assets$316,058 $290,453Liabilities and Shareholders’ EquityCurrent liabilities:   Short-term debt$70,045 $66,730Payables18,554 15,551Accrued compensation and employee benefits7,337 9,821Warranty and after-sale costs882 881Income and other taxes1,223 1,097Total current liabilities98,041 94,080Other long-term liabilities1,324 1,086Deferred income taxes9,790 8,692Accrued non-pension postretirement benefits5,934 6,489Other accrued employee benefits4,406 8,859Commitments and contingencies (Note 6) Shareholders’ equity:   Common Stock, $1 par; authorized 40,000,000 shares; issued 20,503,604 shares in 2013 and 20,441,184 shares in 201220,504 20,441Capital in excess of par value45,627 41,755Reinvested earnings170,318 155,694Accumulated other comprehensive loss(7,524) (13,948)Less: Employee benefit stock(1,075) (1,234)Treasury stock, at cost; 6,091,728 shares in 2013 and 6,127,155 shares in 2012(31,287) (31,461)Total shareholders’ equity196,563 171,247Total liabilities and shareholders’ equity$316,058 $290,453
-start:101198
-end:102970
+start:101207
+end:102979
 
 	}
 	
 	{
 	text: December 31, 2013 2012 (Dollars in thousands)AssetsCurrent assets:   Cash$7,263 $6,554Receivables50,133 45,584Inventories:   Finished goods17,704 19,872Work in process12,330 13,340Raw materials30,905 27,785Total inventories60,939 60,997Prepaid expenses and other current assets3,994 4,343Deferred income taxes4,834 3,896Total current assets127,163 121,374Property, plant and equipment, at cost:   Land and improvements8,941 8,919Buildings and improvements55,018 51,090Machinery and equipment100,179 92,751 164,138 152,760Less accumulated depreciation(87,722) (82,276)Net property, plant and equipment76,416 70,484Intangible assets, at cost less accumulated amortization57,317 58,351Prepaid pension4,312 —Other assets6,155 4,314Goodwill44,695 35,930Total assets$316,058 $290,453Liabilities and Shareholders’ EquityCurrent liabilities:   Short-term debt$70,045 $66,730Payables18,554 15,551Accrued compensation and employee benefits7,337 9,821Warranty and after-sale costs882 881Income and other taxes1,223 1,097Total current liabilities98,041 94,080Other long-term liabilities1,324 1,086Deferred income taxes9,790 8,692Accrued non-pension postretirement benefits5,934 6,489Other accrued employee benefits4,406 8,859Commitments and contingencies (Note 6) Shareholders’ equity:   Common Stock, $1 par; authorized 40,000,000 shares; issued 20,503,604 shares in 2013 and 20,441,184 shares in 201220,504 20,441Capital in excess of par value45,627 41,755Reinvested earnings170,318 155,694Accumulated other comprehensive loss(7,524) (13,948)Less: Employee benefit stock(1,075) (1,234)Treasury stock, at cost; 6,091,728 shares in 2013 and 6,127,155 shares in 2012(31,287) (31,461)Total shareholders’ equity196,563 171,247Total liabilities and shareholders’ equity$316,058 $290,453
-start:101199
-end:102970
+start:101208
+end:102979
 
 	}
 	
 	{
 	text:  Years ended December 31, 2013 2012 2011 (In thousands except per share amounts)Net sales$334,122 $319,660 $262,915Cost of sales217,133 197,414 173,095Gross margin116,989 122,246 89,820Selling, engineering and administration77,882 77,777 62,286Operating earnings39,107 44,469 27,534Interest expense, net1,098 998 185Earnings before income taxes38,009 43,471 27,349Provision for income taxes13,392 15,439 8,188Net earnings$24,617 $28,032 $19,161      Earnings per share:     Basic$1.71 $1.96 $1.28      Diluted$1.70 $1.95 $1.27      Shares used in computation of earnings per share:     Basic14,362 14,332 14,971Impact of dilutive securities78 67 78Diluted14,440 14,399 15,049
-start:103051
-end:103727
-
-	}
-	
-	{
-	text:  Years ended December 31, 2013 2012 2011 (In thousands except per share amounts)Net sales$334,122 $319,660 $262,915Cost of sales217,133 197,414 173,095Gross margin116,989 122,246 89,820Selling, engineering and administration77,882 77,777 62,286Operating earnings39,107 44,469 27,534Interest expense, net1,098 998 185Earnings before income taxes38,009 43,471 27,349Provision for income taxes13,392 15,439 8,188Net earnings$24,617 $28,032 $19,161      Earnings per share:     Basic$1.71 $1.96 $1.28      Diluted$1.70 $1.95 $1.27      Shares used in computation of earnings per share:     Basic14,362 14,332 14,971Impact of dilutive securities78 67 78Diluted14,440 14,399 15,049
-start:103051
-end:103727
+start:103060
+end:103736
 
 	}
 	
 	{
 	text: Years ended December 31, 2013 2012 2011 (Dollars in thousands)Net earnings$24,617 $28,032 $19,161Other comprehensive income :     Foreign currency translation adjustment172 393 (267)Employee benefit funded status adjustment, net of tax6,252 225 (1,162)Comprehensive income$31,041 $28,650 $17,732
-start:103817
-end:104113
-
-	}
-	
-	{
-	text: Years ended December 31, 2013 2012 2011 (Dollars in thousands)Net earnings$24,617 $28,032 $19,161Other comprehensive income :     Foreign currency translation adjustment172 393 (267)Employee benefit funded status adjustment, net of tax6,252 225 (1,162)Comprehensive income$31,041 $28,650 $17,732
-start:103817
-end:104113
+start:103826
+end:104122
 
 	}
 	
 	{
 	text: Years ended December 31, 2013 2012 2011 (Dollars in thousands)Operating activities:     Net earnings$24,617 $28,032 $19,161Adjustments to reconcile net earnings to net cash provided by operations:     Depreciation8,512 7,587 7,144Amortization4,982 4,467 2,347Deferred income taxes1,462 (551) (800)Contributions to pension plan— (1,097) —Noncurrent employee benefits1,392 122 4,704Stock-based compensation expense1,388 1,266 1,470Changes in:     Receivables(3,991) 812 (616)Inventories247 (4,743) 42Prepaid expenses and other current assets368 (905) (850)Liabilities other than debt(4,159) (188) (1,285)Total adjustments10,201 6,770 12,156Net cash provided by operations34,818 34,802 31,317Investing activities:     Property, plant and equipment additions(14,311) (8,202) (5,336)Acquisitions, net of cash acquired(15,401) (51,518) (3,954)Net cash used for investing activities(29,712) (59,720) (9,290)Financing activities:     Net increase (decrease) in short-term debt3,205 65,136 (11,893)Dividends paid(10,004) (9,513) (9,023)Proceeds from exercise of stock options1,640 382 236Tax benefit on stock options382 297 190Repurchase of Common Stock— (30,000) —Issuance of treasury stock498 477 493Net cash provided by (used for) financing activities(4,279) 26,779 (19,997)Effect of foreign exchange rates on cash(118) (282) (144)Increase in cash709 1,579 1,886Cash — beginning of year6,554 4,975 3,089Cash — end of year$7,263 $6,554 $4,975Supplemental disclosures of cash flow information:     Cash paid during the year for:     Income taxes$15,292 $15,247 $10,308Interest$1,114 $1,113 $324
-start:104194
-end:105781
-
-	}
-	
-	{
-	text: Years ended December 31, 2013 2012 2011 (Dollars in thousands)Operating activities:     Net earnings$24,617 $28,032 $19,161Adjustments to reconcile net earnings to net cash provided by operations:     Depreciation8,512 7,587 7,144Amortization4,982 4,467 2,347Deferred income taxes1,462 (551) (800)Contributions to pension plan— (1,097) —Noncurrent employee benefits1,392 122 4,704Stock-based compensation expense1,388 1,266 1,470Changes in:     Receivables(3,991) 812 (616)Inventories247 (4,743) 42Prepaid expenses and other current assets368 (905) (850)Liabilities other than debt(4,159) (188) (1,285)Total adjustments10,201 6,770 12,156Net cash provided by operations34,818 34,802 31,317Investing activities:     Property, plant and equipment additions(14,311) (8,202) (5,336)Acquisitions, net of cash acquired(15,401) (51,518) (3,954)Net cash used for investing activities(29,712) (59,720) (9,290)Financing activities:     Net increase (decrease) in short-term debt3,205 65,136 (11,893)Dividends paid(10,004) (9,513) (9,023)Proceeds from exercise of stock options1,640 382 236Tax benefit on stock options382 297 190Repurchase of Common Stock— (30,000) —Issuance of treasury stock498 477 493Net cash provided by (used for) financing activities(4,279) 26,779 (19,997)Effect of foreign exchange rates on cash(118) (282) (144)Increase in cash709 1,579 1,886Cash — beginning of year6,554 4,975 3,089Cash — end of year$7,263 $6,554 $4,975Supplemental disclosures of cash flow information:     Cash paid during the year for:     Income taxes$15,292 $15,247 $10,308Interest$1,114 $1,113 $324
-start:104194
-end:105781
+start:104203
+end:105790
 
 	}
 	
 	{
 	text: Years ended December 31, CommonStock at $1par value* Capital inexcess ofpar value Reinvestedearnings Accumulatedothercomprehensiveincome(loss) Employeebenefitstock Treasurystock Total (In thousands except per share amounts)Balance, December 31, 2010$21,259 $37,582 $156,101 $(13,137) $(1,536) $(31,886) $168,383Net earnings— — 19,161 — — — 19,161Employee benefit funded status adjustment (net of $835 tax effect)— — — (1,162) — — (1,162)Foreign currency translation— — — (267) — — (267)Cash dividends of $0.60 per share— — (8,991) — — — (8,991)Stock options exercised33 202 — — — — 235Tax benefit on stock options and dividends— 190 — — — — 190ESSOP transactions— 53 — — 51 — 104Stock-based compensation— 1,134 — — — — 1,134Issuance of treasury stock (41 shares)— 284 — — — 210 494Balance, December 31, 201121,292 39,445 166,271 (14,566) (1,485) (31,676) 179,281Net earnings— — 28,032 — — — 28,032Employee benefit funded status adjustment (net of $(247) tax effect)— — — 225 — — 225Foreign currency translation— — — 393 — — 393Cash dividends of $0.66 per share— — (9,497) — — — (9,497)Stock options exercised37 345 — — — — 382Tax benefit on stock options and dividends— 297 — — — — 297ESSOP transactions— 141 — — 251 — 392Stock-based compensation— 1,266 — — — — 1,266Shares purchased and retired(888) — (29,112) — — — (30,000)Issuance of treasury stock (42 shares)— 261 — — — 215 476Balance, December 31, 201220,441 41,755 155,694 (13,948) (1,234) (31,461) 171,247Net earnings— — 24,617 — — — 24,617Employee benefit funded status adjustment (net of $(3,826) tax effect)— — — 6,252 — — 6,252Foreign currency translation— — — 172 — — 172Cash dividends of $0.70 per share— — (9,993) — — — (9,993)Stock options exercised63 1,577 — — — — 1,640Tax benefit on stock options and dividends— 382 — — — — 382ESSOP transactions— 201 — — 159 — 360Stock-based compensation— 1,388 — — — — 1,388Issuance of treasury stock (35 shares)— 324 — — — 174 498Balance, December 31, 2013$20,504 $45,627 $170,318 $(7,524) $(1,075) $(31,287) $196,563 
-start:105871
-end:107896
-
-	}
-	
-	{
-	text: Years ended December 31, CommonStock at $1par value* Capital inexcess ofpar value Reinvestedearnings Accumulatedothercomprehensiveincome(loss) Employeebenefitstock Treasurystock Total (In thousands except per share amounts)Balance, December 31, 2010$21,259 $37,582 $156,101 $(13,137) $(1,536) $(31,886) $168,383Net earnings— — 19,161 — — — 19,161Employee benefit funded status adjustment (net of $835 tax effect)— — — (1,162) — — (1,162)Foreign currency translation— — — (267) — — (267)Cash dividends of $0.60 per share— — (8,991) — — — (8,991)Stock options exercised33 202 — — — — 235Tax benefit on stock options and dividends— 190 — — — — 190ESSOP transactions— 53 — — 51 — 104Stock-based compensation— 1,134 — — — — 1,134Issuance of treasury stock (41 shares)— 284 — — — 210 494Balance, December 31, 201121,292 39,445 166,271 (14,566) (1,485) (31,676) 179,281Net earnings— — 28,032 — — — 28,032Employee benefit funded status adjustment (net of $(247) tax effect)— — — 225 — — 225Foreign currency translation— — — 393 — — 393Cash dividends of $0.66 per share— — (9,497) — — — (9,497)Stock options exercised37 345 — — — — 382Tax benefit on stock options and dividends— 297 — — — — 297ESSOP transactions— 141 — — 251 — 392Stock-based compensation— 1,266 — — — — 1,266Shares purchased and retired(888) — (29,112) — — — (30,000)Issuance of treasury stock (42 shares)— 261 — — — 215 476Balance, December 31, 201220,441 41,755 155,694 (13,948) (1,234) (31,461) 171,247Net earnings— — 24,617 — — — 24,617Employee benefit funded status adjustment (net of $(3,826) tax effect)— — — 6,252 — — 6,252Foreign currency translation— — — 172 — — 172Cash dividends of $0.70 per share— — (9,993) — — — (9,993)Stock options exercised63 1,577 — — — — 1,640Tax benefit on stock options and dividends— 382 — — — — 382ESSOP transactions— 201 — — 159 — 360Stock-based compensation— 1,388 — — — — 1,388Issuance of treasury stock (35 shares)— 324 — — — 174 498Balance, December 31, 2013$20,504 $45,627 $170,318 $(7,524) $(1,075) $(31,287) $196,563
-start:105871
-end:107895
+start:105880
+end:107905
 
 	}
 	
 	{
 	text: Balance atbeginningof year Provisionand reserveadjustments Write-offslessrecoveries Reserveacquired Balanceat endof year (In thousands)2013$488 $78 $(35) $— $5312012$298 $138 $(30) $82(a) $4882011$441 $91 $(274) $40(b) $298
-start:110908
-end:111132
-
-	}
-	
-	{
-	text: Balance atbeginningof year Provisionand reserveadjustments Write-offslessrecoveries Reserveacquired Balanceat endof year (In thousands)2013$488 $78 $(35) $— $5312012$298 $138 $(30) $82(a) $4882011$441 $91 $(274) $40(b) $298
-start:110908
-end:111132
+start:110917
+end:111141
 
 	}
 	
 	{
 	text:(a)   The reserve increased $82,000 in 2012 related to the acquisition of Racine Federated Inc.  Refer to Note 3 “Acquisitions” for a description of the acquisition.
-start:111132
-end:111297
+start:111141
+end:111306
 
 	}
 	
 	{
 	text:(b)  The reserve increased $40,000 in 2011 related to the acquisition of Remag AG.  Refer to Note 3 “Acquisitions” for a description of the acquisition.
-start:111297
-end:111449
+start:111306
+end:111458
 
 	}
 	
 	{
 	text: Balance atbeginningof year Net additionscharged toearnings Disposals Balanceat endof year (In thousands)2013$2,880 $2,322 $(966) $4,2362012$2,680 $1,082 $(882) $2,8802011$2,775 $328 $(423) $2,680
-start:111825
-end:112021
-
-	}
-	
-	{
-	text: Balance atbeginningof year Net additionscharged toearnings Disposals Balanceat endof year (In thousands)2013$2,880 $2,322 $(966) $4,2362012$2,680 $1,082 $(882) $2,8802011$2,775 $328 $(423) $2,680
-start:111825
-end:112021
+start:111834
+end:112030
 
 	}
 	
 	{
 	text:Intangible assets are amortized on a straight-line basis over their estimated useful lives ranging from 5 to 20 years.  The Company does not have any intangible assets deemed to have indefinite lives.  Amortization expense recognized for the years ending December 31, 2013, 2012 and 2011 was $5.0 million, $4.5 million and $2.3 million, respectively.  Amortization expense expected to be recognized is $5.0 million in each of the subsequent four years beginning with 2014, $4.9 million in 2018 and $32.4 million thereafter.  The carrying value and accumulated amortization by major class of intangible assets are as follows:  December 31, 2013 December 31, 2012 Gross carryingamount Accumulatedamortization Gross carryingamount Accumulatedamortization (In thousands)Technologies$47,157 $10,384 $43,828 $7,609Non-compete agreements1,932 1,048 1,932 862Licenses650 407 650 390Customer lists3,423 679 3,423 483Customer relationships11,690 2,218 11,500 1,054Trade names8,615 1,414 8,223 807Total intangibles$73,467 $16,150 $69,556 $11,205
-start:112936
-end:113970
+start:112945
+end:113979
 
 	}
 	
 	{
 	text: December 31, 2013 December 31, 2012 Gross carryingamount Accumulatedamortization Gross carryingamount Accumulatedamortization (In thousands)Technologies$47,157 $10,384 $43,828 $7,609Non-compete agreements1,932 1,048 1,932 862Licenses650 407 650 390Customer lists3,423 679 3,423 483Customer relationships11,690 2,218 11,500 1,054Trade names8,615 1,414 8,223 807Total intangibles$73,467 $16,150 $69,556 $11,205
-start:113561
-end:113970
+start:113570
+end:113979
 
 	}
 	
 	{
 	text:Goodwill was $44.7 million, $35.9 million and $9.4 million at December 31, 2013, 2012 and 2011, respectively.  The increases were the result of the Aquacue, Inc. of Los Gatos, California acquisition in 2013, the Racine Federated, Inc. of Racine, Wisconsin acquisition in 2012 and the Remag, AG of Bern, Switzerland acquisition in 2011.  These acquisitions are further described in Note 3 “Acquisitions.” 
-start:114449
-end:114853
+start:114458
+end:114862
 
 	}
 	
 	{
 	text: Balance atbeginningof year Net additionscharged toearnings   Costsincurred andadjustments Reserveacquired   Balanceat endof year (In thousands)2013$881 $1,005   $(1,068) $64 (a)  $8822012$1,593 $719   $(1,431) $—   $8812011$889 $1,592 (b)  $(888) $—   $1,593
-start:116461
-end:116720
-
-	}
-	
-	{
-	text: Balance atbeginningof year Net additionscharged toearnings   Costsincurred andadjustments Reserveacquired   Balanceat endof year (In thousands)2013$881 $1,005   $(1,068) $64 (a)  $8822012$1,593 $719   $(1,431) $—   $8812011$889 $1,592 (b)  $(888) $—   $1,593
-start:116461
-end:116720
+start:116470
+end:116729
 
 	}
 	
 	{
 	text:Research and development costs are charged to expense as incurred and amounted to $10.5 million, $9.6 million and $8.1 million in 2013, 2012 and 2011, respectively.
-start:117004
-end:117168
+start:117013
+end:117177
 
 	}
 	
 	{
 	text:The Company recognizes the cost of stock-based awards in net earnings for all of its stock-based compensation plans on a straight-line basis over the service period of the awards.  The Company estimates the fair value of its option awards using the Black-Scholes option-pricing formula, and records compensation expense for stock options ratably over the stock option grant's vesting period.  The Company values restricted stock and stock grants for directors on the closing price of the Company's stock on the day the grant was awarded.  Total stock compensation expense recognized by the Company was $1.4 million for 2013, $1.3 million for 2012 and $1.5 million for 2011.
-start:117591
-end:118264
+start:117600
+end:118273
 
 	}
 	
 	{
 	text: Unrecognized pension and postretirement benefits Foreign currency Total (In thousands)Balance at beginning of period$(15,532) $1,584 $(13,948)Other comprehensive income before reclassifications5,116 172 5,288Amounts reclassified from accumulated other comprehensive loss, net of tax of $(0.6) million1,136 — 1,136Net current period other comprehensive income, net6,252 172 6,424Accumulated other comprehensive (loss) income$(9,280) $1,756 $(7,524)
-start:118707
-end:119155
-
-	}
-	
-	{
-	text: Unrecognized pension and postretirement benefits Foreign currency Total (In thousands)Balance at beginning of period$(15,532) $1,584 $(13,948)Other comprehensive income before reclassifications5,116 172 5,288Amounts reclassified from accumulated other comprehensive loss, net of tax of $(0.6) million1,136 — 1,136Net current period other comprehensive income, net6,252 172 6,424Accumulated other comprehensive (loss) income$(9,280) $1,756 $(7,524)
-start:118707
-end:119155
+start:118716
+end:119164
 
 	}
 	
 	{
 	text: Amount reclassified from accumulated other comprehensive loss (In thousands)Amortization of employee benefit plan items: Prior service cost (1)$161Settlement expense (1)806Amortization of actuarial loss (1)786Total before tax1,753Income tax benefit(617)Amount reclassified out of accumulated other comprehensive loss$1,136
-start:119255
-end:119578
-
-	}
-	
-	{
-	text: Amount reclassified from accumulated other comprehensive loss (In thousands)Amortization of employee benefit plan items: Prior service cost (1)$161Settlement expense (1)806Amortization of actuarial loss (1)786Total before tax1,753Income tax benefit(617)Amount reclassified out of accumulated other comprehensive loss$1,136
-start:119255
-end:119578
+start:119264
+end:119587
 
 	}
 	
 	{
 	text:On February 15, 2008, the Board of Directors of the Company adopted a shareholder rights plan and declared a dividend of one Common Share Purchase Right for each outstanding share of Common Stock of the Company payable to the shareholders of record on May 26, 2008.  The plan was effective as of May 27, 2008.  Each right entitles the registered holder to purchase from the Company one share of Common Stock at a price of $200.00 per share, subject to adjustment.  Subject to certain conditions, the rights are redeemable by the Company and are exchangeable for shares of Common Stock at a favorable price.  The rights have no voting power and unless the rights are redeemed, exchanged or terminated earlier, they will expire on May 26, 2018.  The rights are an embedded feature of the Company’s Common Stock and not a free-standing instrument, and therefore, do not require separate accounting treatment.
-start:122008
-end:122913
+start:122017
+end:122922
 
 	}
 	
 	{
 	text:In 2012, the Company’s Board of Directors authorized a share repurchase program up to $30.0 million in shares of Common Stock in the open market for a period of two years ending February 10, 2014, if not terminated sooner.  At December 31, 2012, 888,056 shares were repurchased aggregating $30.0 million, which completed this program.
-start:122913
-end:123247
+start:122922
+end:123256
 
 	}
 	
 	{
 	text:The purchase price was $13.8 million in cash, including a small working capital adjustment.  The purchase price included a final $3.0 million payment, of which half was due January 10, 2014 and half is due October 10, 2014, and these amounts were recorded in payables on the Consolidated Balance Sheets at December 31, 2013.  The Company’s allocation of the purchase price as of December 31, 2013 included $0.1 million of current assets, $1.3 million of deferred tax assets, $3.9 million of intangibles, $8.8 million of goodwill and $0.3 million of current liabilities.  As of December 31, 2013, the Company has completed its analysis for estimating the fair value of the assets acquired and liabilities assumed.  The intangible assets acquired are primarily developed technology with an estimated average useful life of 10 years.  There was approximately $0.1 million of transaction costs related to the acquisition that were included in selling, engineering and administration for 2013 in the Company’s Consolidated Statements of Operations.  The Company merged Aquacue into Badger Meter, Inc. on December 31, 2013.
-start:124124
-end:125241
+start:124133
+end:125250
 
 	}
 	
 	{
 	text:On January 31, 2012, the Company completed its acquisition of 100% of the outstanding common stock of Racine Federated, Inc. of Racine, Wisconsin and its subsidiary Premier Control Technologies, Ltd. (“PCT”) located in Thetford, England for approximately $57.3 million in cash, plus a working capital adjustment of $0.3 million.  The purchase price included a final $4.6 million payment which was due on July 31, 2013 and included in payables at December 31, 2012.  Racine Federated manufactures and markets flow meters for the water industry as well as various industrial metering and specialty products.  These products complement and expand the Company's existing lines for the global flow measurement business.  
-start:125653
-end:126369
+start:125662
+end:126378
 
 	}
 	
 	{
 	text: January 31, 2012 (In thousands)Assets acquired: Cash$1,529Receivables5,230Inventories7,603Prepaid expenses and other current assets 164Current deferred income taxes247Property, plant and equipment3,772Intangible assets29,100Goodwill26,565Total assets acquired$74,210  Liabilities assumed: Payables$2,920Accrued compensation and employee benefits1,785Long-term deferred income taxes11,457Other long-term liabilities451Total liabilities assumed$16,613
-start:126937
-end:127387
-
-	}
-	
-	{
-	text: January 31, 2012 (In thousands)Assets acquired: Cash$1,529Receivables5,230Inventories7,603Prepaid expenses and other current assets 164Current deferred income taxes247Property, plant and equipment3,772Intangible assets29,100Goodwill26,565Total assets acquired$74,210  Liabilities assumed: Payables$2,920Accrued compensation and employee benefits1,785Long-term deferred income taxes11,457Other long-term liabilities451Total liabilities assumed$16,613
-start:126937
-end:127387
+start:126946
+end:127396
 
 	}
 	
 	{
 	text:The following unaudited pro forma information combines historical results as if Racine Federated had been owned by the Company for the twelve-month periods presented. 20122011 (In thousands except per share amounts)Net sales$323,516$305,562Net earnings$28,177$21,261Diluted earnings per share $1.96$1.41
-start:127561
-end:127864
+start:127570
+end:127873
 
 	}
 	
 	{
 	text: 20122011 (In thousands except per share amounts)Net sales$323,516$305,562Net earnings$28,177$21,261Diluted earnings per share $1.96$1.41
-start:127727
-end:127864
+start:127736
+end:127873
 
 	}
 	
 	{
 	text:On January 26, 2011, the Company purchased Remag AG of Bern, Switzerland for $4.9 million.  Remag manufactures and markets a small plastic turbine meter used in HVAC and white goods.  The Company included these products with its other industrial flow products.  The Company’s purchase price allocation included $0.9 million of cash, plus approximately $0.4 million of receivables, $0.4 million of inventory, $0.3 million of other assets, $2.0 million of fixed assets, $1.8 million of intangibles, $0.2 million of goodwill and $1.1 million of liabilities.
-start:128460
-end:129014
+start:128469
+end:129023
 
 	}
 	
 	{
 	text: 2013 2012 (In thousands)Notes payable to banks$4,795 $3,300Commercial paper65,250 63,430Total short-term debt$70,045 $66,730
-start:129431
-end:129556
-
-	}
-	
-	{
-	text: 2013 2012 (In thousands)Notes payable to banks$4,795 $3,300Commercial paper65,250 63,430Total short-term debt$70,045 $66,730
-start:129431
-end:129556
+start:129440
+end:129565
 
 	}
 	
 	{
 	text:Included in notes payable to banks was $4.8 million outstanding in 2013 under a 4.0 million Euro-base revolving loan facility (U.S. dollar equivalent of $5.5 million at December 31, 2013) that does not expire, and which bore interest at 1.72%.   In 2012, included in notes payable to banks was $3.3 million outstanding under a 4.0 million Euro-based revolving loan facility (U.S. dollar equivalent of $5.3 million at December 31, 2012) which bore interest at 1.56%. 
-start:129560
-end:130026
+start:129569
+end:130035
 
 	}
 	
 	{
 	text:On May 23, 2012, the Company signed a new credit agreement which increased its principal line of credit (increasing it from $90.0 million to $125.0 million) for a three year period.  The line is permanently reduced by $16.7 million annually beginning in 2013.  The line was increased to meet short-term cash needs, if any, that may arise as the result of funding the acquisition of Racine Federated with cash, as well as any cash needs resulting from the $30.0 million stock repurchase program that began in the first quarter of 2012 and ended in the second quarter of 2012.  The issuance of commercial paper may comprise a maximum of $70.0 million of the line of credit.  Borrowings of commercial paper bore interest at 1.25% in 2013 and 1.35% in 2012.  While the facility is unsecured, there are a number of financial covenants in effect for the period with which the Company is in compliance.  Under the principal line of credit at December 31, 2013, the Company has $43.1 million available out of its total $47.8 million available short-term credit lines.
-start:130030
-end:131089
+start:130039
+end:131098
 
 	}
 	
 	{
 	text:compensation expense recognized by the Company for the year ended December 31, 2013 related to stock options was $0.5 million compared to $0.4 million in 2012 and $0.4 million in 2011.
-start:132234
-end:132418
+start:132243
+end:132427
 
 	}
 	
 	{
 	text: Number of shares Weighted-averageexercise priceOptions outstanding —   December 31, 2010251,250 $26.59Options granted31,500 $36.59Options exercised(33,180) $7.07Options forfeited(4,480) 38.20Options outstanding —   December 31, 2011245,090 $30.30Options granted45,100 $36.15Options exercised(37,450) $10.25Options forfeited(5,160) $37.19Options outstanding —   December 31, 2012247,580 $34.26Options granted23,258 $51.29Options exercised(66,660) $24.91Options forfeited(1,800) $37.78Options outstanding —   December 31, 2013202,378 $39.27Price range $9.14 — $36.15   (weighted-average contractual life of 6.3 years)67,560 $32.58Price range $36.16 — $38.41   (weighted-average contractual life of 6.8 years)57,260 $37.57Price range $38.42 — $52.81   (weighted-average contractual life of 6.2 years)77,558 $46.35Options outstanding - December 31, 2013202,378  Exercisable options —   December 31, 2011152,762 $25.29December 31, 2012141,740 $31.72December 31, 2013113,060 $38.18
-start:132558
-end:133534
-
-	}
-	
-	{
-	text: Number of shares Weighted-averageexercise priceOptions outstanding —   December 31, 2010251,250 $26.59Options granted31,500 $36.59Options exercised(33,180) $7.07Options forfeited(4,480) 38.20Options outstanding —   December 31, 2011245,090 $30.30Options granted45,100 $36.15Options exercised(37,450) $10.25Options forfeited(5,160) $37.19Options outstanding —   December 31, 2012247,580 $34.26Options granted23,258 $51.29Options exercised(66,660) $24.91Options forfeited(1,800) $37.78Options outstanding —   December 31, 2013202,378 $39.27Price range $9.14 — $36.15   (weighted-average contractual life of 6.3 years)67,560 $32.58Price range $36.16 — $38.41   (weighted-average contractual life of 6.8 years)57,260 $37.57Price range $38.42 — $52.81   (weighted-average contractual life of 6.2 years)77,558 $46.35Options outstanding - December 31, 2013202,378  Exercisable options —   December 31, 2011152,762 $25.29December 31, 2012141,740 $31.72December 31, 2013113,060 $38.18
-start:132558
-end:133534
+start:132567
+end:133543
 
 	}
 	
 	{
 	text: 2013 2012Per share fair value of options granted during the period$20.34 $13.17Risk-free interest rate0.82% 0.85%Dividend yield1.31% 1.77%Volatility factor49.7% 49.7%Weighted-average expected life in years5.3 5.3
-start:133633
-end:133846
-
-	}
-	
-	{
-	text: 2013 2012Per share fair value of options granted during the period$20.34 $13.17Risk-free interest rate0.82% 0.85%Dividend yield1.31% 1.77%Volatility factor49.7% 49.7%Weighted-average expected life in years5.3 5.3
-start:133633
-end:133846
+start:133642
+end:133855
 
 	}
 	
 	{
 	text: 2013 2012 (In thousands)Exercised$1,743 $950Outstanding$3,083 $3,371Exercisable$1,846 $2,316
-start:134614
-end:134707
-
-	}
-	
-	{
-	text: 2013 2012 (In thousands)Exercised$1,743 $950Outstanding$3,083 $3,371Exercisable$1,846 $2,316
-start:134614
-end:134707
+start:134623
+end:134716
 
 	}
 	
 	{
 	text:As of December 31, 2013, the unrecognized compensation cost related to stock options was approximately $1.0 million, which will be recognized over a weighted average period of 2.3 years.
-start:134711
-end:134897
+start:134720
+end:134906
 
 	}
 	
 	{
 	text: Non-employee directors receive an annual award of $50,000 worth of shares of the Company’s Common Stock under the shareholder-approved 2011 Omnibus Incentive Plan.  The Company values stock grants for directors on the closing price of the Company’s stock on the day the grant was awarded.  The Company records compensation expense for this plan ratably over the annual service period beginning May 1.  Director stock compensation expense recognized by the Company for the year ended December 31, 2013, 2012 and 2011 was $0.4 million in each year.  As of December 31, 2013, the unrecognized compensation cost related to the director stock award that is expected to be recognized over the remaining four months is estimated to be approximately $0.1 million.
-start:134917
-end:135673
+start:134926
+end:135682
 
 	}
 	
 	{
 	text:The Company periodically issues nonvested shares of the Company's Common Stock to certain eligible employees, generally with a three-year cliff vesting period contingent on employment.  The Company values restricted stock on the closing price of the Company's stock on the day the grant was awarded.  The Company records compensation expense for these plans ratably over the vesting periods.  Nonvested stock compensation expense recognized by the Company for the year ended December 31, 2013 was $0.9 million compared to $0.9 million in 2012 and $0.7 million in 2011.
-start:135689
-end:136257
+start:135698
+end:136266
 
 	}
 	
 	{
 	text:The fair value of nonvested shares is determined based on the market price of the shares on the grant date. Shares Fair valueper shareNonvested at December 31, 201047,900 $41.52Granted28,650 $36.59Vested(10,900) $51.26Forfeited(2,350) $39.30Nonvested at December 31, 201163,300 $37.69Granted30,325 $36.15Vested(17,900) $38.69Forfeited(1,900) $21.77Nonvested at December 31, 201273,825 $37.01Granted21,425 $51.12Vested(16,875) $38.41Forfeited(3,900) $37.69Nonvested at December 31, 201374,475 $40.54
-start:136257
-end:136755
+start:136266
+end:136764
 
 	}
 	
 	{
 	text: Shares Fair valueper shareNonvested at December 31, 201047,900 $41.52Granted28,650 $36.59Vested(10,900) $51.26Forfeited(2,350) $39.30Nonvested at December 31, 201163,300 $37.69Granted30,325 $36.15Vested(17,900) $38.69Forfeited(1,900) $21.77Nonvested at December 31, 201273,825 $37.01Granted21,425 $51.12Vested(16,875) $38.41Forfeited(3,900) $37.69Nonvested at December 31, 201374,475 $40.54
-start:136364
-end:136755
+start:136373
+end:136764
 
 	}
 	
 	{
 	text:As of December 31, 2013, there was $1.3 million of unrecognized compensation cost related to nonvested restricted stock that is expected to be recognized over a weighted average period of 1.3 years.
-start:136861
-end:137059
+start:136870
+end:137068
 
 	}
 	
 	{
 	text: Total leases (In thousands)2014$1,68120151,45920161,08720171,0302018964Thereafter6,670Total lease obligations$12,891
-start:137316
-end:137433
-
-	}
-	
-	{
-	text: Total leases (In thousands)2014$1,68120151,45920161,08720171,0302018964Thereafter6,670Total lease obligations$12,891
-start:137316
-end:137433
+start:137325
+end:137442
 
 	}
 	
 	{
 	text:Total rental expense charged to operations under all operating leases was $2.8 million, $2.7 million and $1.7 million in 2013, 2012 and 2011, respectively.
-start:137433
-end:137588
+start:137442
+end:137597
 
 	}
 	
 	{
 	text:The Company makes commitments in the normal course of business.  At December 31, 2013, the Company had various contractual obligations, specifically operating leases that totaled $12.9 million, of which $1.7 million is due in 2014 and the remainder due between 2015 and 2025.
-start:137588
-end:137863
+start:137597
+end:137872
 
 	}
 	
 	{
 	text: Pensionplans Otherpostretirementbenefits (In thousands)Prior service cost$— $93Net actuarial loss$9,157 $30
-start:142476
-end:142584
-
-	}
-	
-	{
-	text: Pensionplans Otherpostretirementbenefits (In thousands)Prior service cost$— $93Net actuarial loss$9,157 $30
-start:142476
-end:142584
+start:142485
+end:142593
 
 	}
 	
 	{
 	text:Amounts included in accumulated other comprehensive loss, net of tax, at December 31, 2013 expected to be recognized in net periodic benefit cost during the fiscal year ending December 31, 2014 are as follows: Pensionplans Otherpostretirementbenefits (In thousands)Prior service credit$— $99Net actuarial loss$378 $—
-start:142589
-end:142905
+start:142598
+end:142914
 
 	}
 	
 	{
 	text: Pensionplans Otherpostretirementbenefits (In thousands)Prior service credit$— $99Net actuarial loss$378 $—
-start:142798
-end:142905
+start:142807
+end:142914
 
 	}
 	
 	{
 	text: 2013 2012 2011 (In thousands)Service cost — benefits earned during the year$5 $6 $464Interest cost on projected benefit obligations1,842 2,205 2,415Expected return on plan assets(2,744) (3,190) (3,767)Amortization of prior service cost — — 196Amortization of net loss719 645 1,698Curtailment expense— — 984Settlement expense806 1,075 —Net periodic pension cost$628 $741 $1,990
-start:144009
-end:144386
-
-	}
-	
-	{
-	text: 2013 2012 2011 (In thousands)Service cost — benefits earned during the year$5 $6 $464Interest cost on projected benefit obligations1,842 2,205 2,415Expected return on plan assets(2,744) (3,190) (3,767)Amortization of prior service cost — — 196Amortization of net loss719 645 1,698Curtailment expense— — 984Settlement expense806 1,075 —Net periodic pension cost$628 $741 $1,990
-start:144009
-end:144386
+start:144018
+end:144395
 
 	}
 	
 	{
 	text:The following table provides a reconciliation of benefit obligations, plan assets and funded status based on a December 31 measurement date: 2013 2012 (In thousands)Change in benefit obligation:   Benefit obligation at beginning of plan year$50,700 $49,009Service cost5 6Interest cost1,842 2,205Actuarial (gain)/loss(3,208) 3,565Benefits paid(3,778) (4,085)Projected benefit obligation at measurement date$45,561 $50,700    Change in plan assets:   Fair value of plan assets at beginning of plan year$46,547 $43,852Actual return on plan assets7,104 5,683Company contributions— 1,097Benefits paid(3,778) (4,085)Fair value of plan assets at measurement date$49,873 $46,547    Funded status of the plan:   Benefit obligation in excess of plan assets4,312 (4,153)Prepaid pension asset (accrued pension liability)$4,312 $(4,153)
-start:145326
-end:146149
+start:145335
+end:146158
 
 	}
 	
 	{
 	text: 2013 2012 (In thousands)Change in benefit obligation:   Benefit obligation at beginning of plan year$50,700 $49,009Service cost5 6Interest cost1,842 2,205Actuarial (gain)/loss(3,208) 3,565Benefits paid(3,778) (4,085)Projected benefit obligation at measurement date$45,561 $50,700    Change in plan assets:   Fair value of plan assets at beginning of plan year$46,547 $43,852Actual return on plan assets7,104 5,683Company contributions— 1,097Benefits paid(3,778) (4,085)Fair value of plan assets at measurement date$49,873 $46,547    Funded status of the plan:   Benefit obligation in excess of plan assets4,312 (4,153)Prepaid pension asset (accrued pension liability)$4,312 $(4,153)
-start:145466
-end:146149
+start:145475
+end:146158
 
 	}
 	
 	{
 	text:The fair value of the qualified pension plan assets was $49.9 million at December 31, 2013 and $46.5 million at December 31, 2012.  The variation in the fair value of the assets between years was due to the change in the market value of the underlying investments and benefits paid.  Estimated future benefit payments expected to be paid in each of the next five years beginning with 2014 are $4.5 million, $4.1 million, $3.8 million, $3.8 million and $3.7 million, with an aggregate of $15.9 million for the five years thereafter.  As of the most recent actuarial measurement date, the Company is not required to make a minimum contribution for the 2014 calendar year.  
-start:146289
-end:146960
+start:146298
+end:146969
 
 	}
 	
 	{
 	text: Marketvalue Quotedprices in activemarkets foridentical assets(Level 1) Significantobservableinputs(Level 2) Significantunobservableinputs(Level 3) (In thousands)Equity securities (a)$27,049 $27,049 $— $—Fixed income funds (b)18,990 18,990 — —Cash/cash equivalents (c)3,834 3,834 — —Total$49,873 $49,873 $— $—
-start:149424
-end:149733
-
-	}
-	
-	{
-	text: Marketvalue Quotedprices in activemarkets foridentical assets(Level 1) Significantobservableinputs(Level 2) Significantunobservableinputs(Level 3) (In thousands)Equity securities (a)$27,049 $27,049 $— $—Fixed income funds (b)18,990 18,990 — —Cash/cash equivalents (c)3,834 3,834 — —Total$49,873 $49,873 $— $—
-start:149424
-end:149733
+start:149433
+end:149742
 
 	}
 	
 	{
 	text:The fair value of the Company’s qualified pension plan assets by category at December 31, 2012 are as follows: Marketvalue Quotedprices in activemarkets foridentical assets(Level  1) Significantobservableinputs(Level 2) Significantunobservableinputs(Level 3) (In thousands)Equity securities (a)$26,067 $26,067 $— $—Fixed income funds (b)20,022 20,022 — —Cash/cash equivalents (c)458 458 — —Total$46,547 $46,547 $— $—
-start:150527
-end:150943
+start:150536
+end:150952
 
 	}
 	
 	{
 	text: Marketvalue Quotedprices in activemarkets foridentical assets(Level  1) Significantobservableinputs(Level 2) Significantunobservableinputs(Level 3) (In thousands)Equity securities (a)$26,067 $26,067 $— $—Fixed income funds (b)20,022 20,022 — —Cash/cash equivalents (c)458 458 — —Total$46,547 $46,547 $— $—
-start:150637
-end:150943
+start:150646
+end:150952
 
 	}
 	
 	{
 	text:The pension plan has a separately determined accumulated benefit obligation that is the actuarial present value of benefits based on service rendered and current and past compensation levels.  Prior to December 31, 2013, this differed from the projected benefit obligation in that it included no assumption about future compensation levels.  The accumulated benefit obligation was $45.6 million at December 31, 2013 and $50.7 million at December 31, 2012.
-start:151710
-end:152165
+start:151719
+end:152174
 
 	}
 	
 	{
 	text:The Company also maintains supplemental non-qualified unfunded plans for certain officers and other key employees.  Expense for these plans was $0.2 million for the year ended 2013 and $0.3 million for each of the years ended 2012 and 2011, and the amount accrued was $1.5 million and $1.6 million as of December 31, 2013 and 2012, respectively.  Amounts were determined based on similar assumptions as the qualified pension plan as of the December 31 measurement date for 2013 and 2012.
-start:152312
-end:152799
+start:152321
+end:152808
 
 	}
 	
 	{
 	text: 2013 2012 2011 (In thousands)Service cost, benefits attributed for service of active employees for the period$154 $143 $148Interest cost on the accumulated postretirement benefit obligation255 295 313Amortization of prior service cost161 161 161Net periodic postretirement benefit cost$570 $599 $622
-start:153128
-end:153428
-
-	}
-	
-	{
-	text: 2013 2012 2011 (In thousands)Service cost, benefits attributed for service of active employees for the period$154 $143 $148Interest cost on the accumulated postretirement benefit obligation255 295 313Amortization of prior service cost161 161 161Net periodic postretirement benefit cost$570 $599 $622
-start:153128
-end:153428
+start:153137
+end:153437
 
 	}
 	
 	{
 	text: 2013 2012 (In thousands)Benefit obligation at beginning of year$6,940 $6,542Service cost154 143Interest cost255 295Actuarial (gain) loss(746) 422Plan participants contributions716 673Benefits paid(943) (1,135)Benefit obligation and funded status at end of year$6,376 $6,940
-start:153827
-end:154101
-
-	}
-	
-	{
-	text: 2013 2012 (In thousands)Benefit obligation at beginning of year$6,940 $6,542Service cost154 143Interest cost255 295Actuarial (gain) loss(746) 422Plan participants contributions716 673Benefits paid(943) (1,135)Benefit obligation and funded status at end of year$6,376 $6,940
-start:153827
-end:154101
+start:153836
+end:154110
 
 	}
 	
 	{
 	text: 2013 2012 (In thousands)Accrued compensation and employee benefits$442 $451Accrued non-pension postretirement benefits5,934 6,489Amounts recognized at December 31$6,376 $6,940
-start:154182
-end:154358
-
-	}
-	
-	{
-	text: 2013 2012 (In thousands)Accrued compensation and employee benefits$442 $451Accrued non-pension postretirement benefits5,934 6,489Amounts recognized at December 31$6,376 $6,940
-start:154182
-end:154358
+start:154191
+end:154367
 
 	}
 	
 	{
 	text:Estimated future benefit payments of postretirement benefits, assuming increased cost sharing, expected to be paid in each of the next five years beginning with 2014 are $0.5 million in each year with an aggregate of $2.3 million for the five 
-start:154936
-end:155179
+start:154945
+end:155188
 
 	}
 	
 	{
 	text:In 2010, the Company restructured the outstanding debt of its ESSOP by loaning the ESSOP $0.5 million to repay a loan to a third party and loaning the ESSOP an additional $1.0 million to purchase additional shares of the Company’s Common Stock for future 401(k) savings plan matches under a program that will expire on December 31, 2020.  Under this program, the Company agreed to pay the principal and interest on the new loan amount of $1.5 million.  The receivable from the ESSOP and the related obligation were therefore netted to zero on the Company’s Consolidated Balance Sheets at December 31, 2013 and 2012.  The terms of the loan call for equal payments of principal with the final payment due on December 31, 2020, and prepayments are allowed under the plan terms.  At December 31, 2013, $1.1 million of the loan balance remained.
-start:155513
-end:156353
+start:155522
+end:156362
 
 	}
 	
 	{
 	text:The Company made principal payments of $154,000, $256,000 and $51,000 in 2013, 2012 and 2011, respectively.  The associated commitments released shares of Common Stock (9,918 shares in 2013 for the 2012 obligation, 16,151 shares in 2012 for the 2011 obligation, and 10,735 shares in 2011 for the 2010 obligation) for allocation to participants in the ESSOP.  The ESSOP held unreleased shares of 83,439, 93,357 and 111,145 as of December 31, 2013, 2012 and 2011, respectively, with a fair value of $4.5 million, $4.4 million and $3.3 million as of December 31, 2013, 2012 and 2011, respectively.  Unreleased shares are not considered outstanding for purposes of computing earnings per share.
-start:156357
-end:157047
+start:156366
+end:157056
 
 	}
 	
 	{
 	text:The ESSOP includes a voluntary 401(k) savings plan that allows certain employees to defer up to 20% of their income on a pretax basis subject to limits on maximum amounts.  The Company matches 25% of each employee’s contribution, with the match percentage applying to a maximum of 7% of each employee's salary.  The match is paid using the Company's Common Stock released through the ESSOP loan payments.  For ESSOP shares purchased prior to 1993, compensation expense is recognized based on the original purchase price of the shares released and dividends on unreleased shares are charged to compensation expense.  For shares purchased in or after 1993, expense is based on the market value of the shares on the date released and dividends on unreleased shares are charged to compensation expense.  Compensation expense of $0.3 million was recognized for the match for each of 2013, 2012 and 2011.
-start:157051
-end:157949
+start:157060
+end:157958
 
 	}
 	
 	{
 	text:On December 31, 2010, the Company froze the qualified pension plan for its non-union participants and formed a new defined contribution feature within the ESSOP plan in which each employee received a similar benefit.  On December 31, 2011, the Company froze the qualified pension plan for its union participants and included them in the same defined contribution feature within the ESSOP.  For 2013, compensation expense under the defined contribution feature totaled $2.3 million.
-start:157953
-end:158434
+start:157962
+end:158443
 
 	}
 	
 	{
 	text: 2013 2012 2011 (In thousands)Domestic$34,687 $40,650 $23,750Foreign3,322 2,821 3,599Total$38,009 $43,471 $27,349
-start:158773
-end:158886
-
-	}
-	
-	{
-	text: 2013 2012 2011 (In thousands)Domestic$34,687 $40,650 $23,750Foreign3,322 2,821 3,599Total$38,009 $43,471 $27,349
-start:158773
-end:158886
+start:158782
+end:158895
 
 	}
 	
 	{
 	text: 2013 2012 2011 (In thousands)Current: Federal$12,630 $13,908 $7,111State2,394 1,455 1,290Foreign802 507 780Deferred:     Federal(2,174) (663) (774)State(228) (165) (79)Foreign(32) 397 (140)Total$13,392 $15,439 $8,188
-start:159041
-end:159258
-
-	}
-	
-	{
-	text: 2013 2012 2011 (In thousands)Current: Federal$12,630 $13,908 $7,111State2,394 1,455 1,290Foreign802 507 780Deferred:     Federal(2,174) (663) (774)State(228) (165) (79)Foreign(32) 397 (140)Total$13,392 $15,439 $8,188
-start:159041
-end:159258
+start:159050
+end:159267
 
 	}
 	
 	{
 	text: 2013 2012 2011 (In thousands)Provision at statutory rate$13,303 $15,215 $9,572State income taxes, net of federal tax benefit1,408 1,018 783Foreign income taxes(393) (87) (621)Domestic production activities deduction(498) (529) (255)Tax audit settlements— (101) (1,330)Other(428) (77) 39Actual provision$13,392 $15,439 $8,188
-start:159436
-end:159761
-
-	}
-	
-	{
-	text: 2013 2012 2011 (In thousands)Provision at statutory rate$13,303 $15,215 $9,572State income taxes, net of federal tax benefit1,408 1,018 783Foreign income taxes(393) (87) (621)Domestic production activities deduction(498) (529) (255)Tax audit settlements— (101) (1,330)Other(428) (77) 39Actual provision$13,392 $15,439 $8,188
-start:159436
-end:159761
+start:159445
+end:159770
 
 	}
 	
 	{
 	text: 2013 2012 (In thousands)Deferred tax assets:   Reserve for receivables and inventories$2,850 $1,991Accrued compensation1,087 876Payables364 582Non-pension postretirement benefits2,447 2,652Net operating loss and credit carryforwards2,645 —Accrued pension benefits— 2,912Accrued employee benefits1,681 1,540Other793 745Total deferred tax assets11,867 11,298    Deferred tax liabilities:   Depreciation4,408 4,657Amortization12,165 11,437Accrued pension benefits236 —Other14 —Total deferred tax liabilities16,823 16,094Net deferred tax liabilities$(4,956) $(4,796)
-start:159944
-end:160507
-
-	}
-	
-	{
-	text: 2013 2012 (In thousands)Deferred tax assets:   Reserve for receivables and inventories$2,850 $1,991Accrued compensation1,087 876Payables364 582Non-pension postretirement benefits2,447 2,652Net operating loss and credit carryforwards2,645 —Accrued pension benefits— 2,912Accrued employee benefits1,681 1,540Other793 745Total deferred tax assets11,867 11,298    Deferred tax liabilities:   Depreciation4,408 4,657Amortization12,165 11,437Accrued pension benefits236 —Other14 —Total deferred tax liabilities16,823 16,094Net deferred tax liabilities$(4,956) $(4,796)
-start:159944
-end:160507
+start:159953
+end:160516
 
 	}
 	
 	{
 	text:At December 31, 2013, the Company had federal and state net operating loss carryforwards of $5.9 million, which were acquired in connection with the Aquacue acquisition.  There were no carryforwards at December 31, 2012.  The Company’s U.S. federal and state net operating loss carryforwards expire between 2029 and 2033.
-start:160507
-end:160828
+start:160516
+end:160837
 
 	}
 	
 	{
 	text:At December 31, 2013 and 2012, the Company had federal and state general business credit carryforwards of $0.2 million and $0.1 million, respectively.  The Company’s U.S. federal and state tax credit carryforwards expire between 2029 and 2033.
-start:160832
-end:161075
+start:160841
+end:161084
 
 	}
 	
 	{
 	text:The Company’s federal and state net operating loss and federal and state credit carryforwards are limited on an annual basis to $0.4 million under Internal Revenue Code Section 382 and Section 383.  The federal and state net operating loss carryforward must be fully utilized prior to the utilization of the federal and state credit carryforward.
-start:161075
-end:161421
+start:161084
+end:161430
 
 	}
 	
 	{
 	text:No provision for federal income taxes was made on the earnings of foreign subsidiaries that are considered permanently invested or that would be offset by foreign tax credits upon distribution.  Such undistributed earnings at December 31, 2013 were $19.1 million.
-start:161425
-end:161688
+start:161434
+end:161697
 
 	}
 	
 	{
 	text: 2013 2012 (In thousands)Balance at beginning of year$698 $796Increases (decreases) in unrecognized tax benefits as a result of positions taken during the prior period80 (18)Increases in unrecognized tax benefits as a result of positions taken during the current period216 162Decreases in unrecognized tax benefits relating to settlements with taxing authorities— (70)Reductions to unrecognized tax benefits as a result of a lapse of the applicable statute of limitations(114) (172)Balance at end of year$880 $698
-start:161919
-end:162432
-
-	}
-	
-	{
-	text: 2013 2012 (In thousands)Balance at beginning of year$698 $796Increases (decreases) in unrecognized tax benefits as a result of positions taken during the prior period80 (18)Increases in unrecognized tax benefits as a result of positions taken during the current period216 162Decreases in unrecognized tax benefits relating to settlements with taxing authorities— (70)Reductions to unrecognized tax benefits as a result of a lapse of the applicable statute of limitations(114) (172)Balance at end of year$880 $698
-start:161919
-end:162432
+start:161928
+end:162441
 
 	}
 	
 	{
 	text:The Company and its subsidiaries file income tax returns in the U.S. federal jurisdiction, and various states and foreign jurisdictions.  With few exceptions, the Company is no longer subject to U.S. federal, state and local, or non-U.S. income tax examinations by tax authorities for years prior to 2009.  The Company's policy is to recognize interest related to unrecognized tax benefits as interest expense and penalties as operating expenses.  Accrued interest was approximately $0.1 million at both December 31, 2013 and 2012, and there were no penalties accrued in either year.
-start:162798
-end:163381
+start:162807
+end:163390
 
 	}
 	
 	{
 	text:In 2010, the Company restructured the outstanding debt of its ESSOP by loaning the ESSOP $0.5 million to repay a loan to a third party and loaning the ESSOP an additional $1.0 million to purchase additional shares of the Company’s Common Stock for future 401(k) savings plan matches under a program that will expire on December 31, 2020.  Under this program, the Company agreed to pay the principal and interest on the new loan amount of $1.5 million.  The receivable from the ESSOP and the related obligation were therefore netted to zero on the Company’s Consolidated Balance Sheets at December 31, 2013 and 2012.  The terms of the loan call for equal payments of principal with the final payment due on December 31, 2020.  At December 31, 2013, $1.1 million of the loan balance remained.
-start:163734
-end:164524
+start:163743
+end:164533
 
 	}
 	
 	{
 	text: 2013 2012 2011 (In thousands)Revenues:     United States$290,019 $271,045 $231,306Foreign:     Asia8,085 10,075 2,229Canada8,514 8,752 3,362Europe15,677 16,001 12,997Mexico4,226 6,636 8,178Other7,601 7,151 4,843Total$334,122 $319,660 $262,915
-start:165093
-end:165336
-
-	}
-	
-	{
-	text: 2013 2012 2011 (In thousands)Revenues:     United States$290,019 $271,045 $231,306Foreign:     Asia8,085 10,075 2,229Canada8,514 8,752 3,362Europe15,677 16,001 12,997Mexico4,226 6,636 8,178Other7,601 7,151 4,843Total$334,122 $319,660 $262,915
-start:165093
-end:165336
+start:165102
+end:165345
 
 	}
 	
 	{
 	text: 2013 2012 (In thousands)Long-lived assets (all non-current assets):   United States$150,997 $133,628Foreign:   Europe17,409 15,261Mexico20,489 20,190Total$188,895 $169,079     2013 2012 (In thousands)Total assets:   United States$255,881 $236,442Foreign:   Europe36,838 31,461Mexico23,339 22,550Total$316,058 $290,453
-start:165398
-end:165716
-
-	}
-	
-	{
-	text: 2013 2012 (In thousands)Long-lived assets (all non-current assets):   United States$150,997 $133,628Foreign:   Europe17,409 15,261Mexico20,489 20,190Total$188,895 $169,079     2013 2012 (In thousands)Total assets:   United States$255,881 $236,442Foreign:   Europe36,838 31,461Mexico23,339 22,550Total$316,058 $290,453
-start:165398
-end:165716
+start:165407
+end:165725
 
 	}
 	
 	{
 	text: Quarter ended March 31 June 30 September 30 December 31 (In thousands except per share data)2013       Net sales$71,808 $88,341 $92,963 $81,010Gross margin$25,037 $29,846 $33,103 $29,003Net earnings$2,907 $6,281 $9,049 $6,380Earnings per share:       Basic$0.21 $0.44 $0.63 $0.44Diluted$0.20 $0.44 $0.63 $0.44Dividends declared$0.17 $0.17 $0.18 $0.18Stock price:       High$54.20 $54.28 $49.96 $56.36Low$46.82 $41.88 $43.96 $44.80Quarter-end close$53.52 $44.55 $46.50 $54.50        2012       Net sales$76,233 $81,974 $87,130 $74,323Gross margin$28,864 $30,201 $34,330 $28,851Net earnings$6,249 $7,442 $8,857 $5,484Earnings per share:       Basic$0.42 $0.52 $0.63 $0.39Diluted$0.42 $0.52 $0.62 $0.39Dividends declared$0.16 $0.16 $0.17 $0.17Stock price:       High$35.05 $39.73 $39.85 $48.60Low$29.30 $32.61 $32.29 $36.25Quarter-end close$33.99 $37.55 $36.39 $47.41
-start:165909
-end:166774
-
-	}
-	
-	{
-	text: Quarter ended March 31 June 30 September 30 December 31 (In thousands except per share data)2013       Net sales$71,808 $88,341 $92,963 $81,010Gross margin$25,037 $29,846 $33,103 $29,003Net earnings$2,907 $6,281 $9,049 $6,380Earnings per share:       Basic$0.21 $0.44 $0.63 $0.44Diluted$0.20 $0.44 $0.63 $0.44Dividends declared$0.17 $0.17 $0.18 $0.18Stock price:       High$54.20 $54.28 $49.96 $56.36Low$46.82 $41.88 $43.96 $44.80Quarter-end close$53.52 $44.55 $46.50 $54.50        2012       Net sales$76,233 $81,974 $87,130 $74,323Gross margin$28,864 $30,201 $34,330 $28,851Net earnings$6,249 $7,442 $8,857 $5,484Earnings per share:       Basic$0.42 $0.52 $0.63 $0.39Diluted$0.42 $0.52 $0.62 $0.39Dividends declared$0.16 $0.16 $0.17 $0.17Stock price:       High$35.05 $39.73 $39.85 $48.60Low$29.30 $32.61 $32.29 $36.25Quarter-end close$33.99 $37.55 $36.39 $47.41
-start:165909
-end:166774
+start:165918
+end:166783
 
 	}
 	]
