@@ -77,4 +77,7 @@
 ###
 ###html5lib
 ###
+###                MODULE DOCUMENTATION
+###On a web browser, open SecFileParser/new_construct/docs/new_construct.runner.html
+###
 from new_construct.runner import *
