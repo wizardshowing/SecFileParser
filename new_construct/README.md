@@ -8,7 +8,7 @@ Recommended Software:
         For downloading the this git repository.
 
 Required Software:
-1) virtualen 13.1.2: https://virtualenv.pypa.io/en/latest/
+1) virtualenv 13.1.2: https://virtualenv.pypa.io/en/latest/
               For running the exercise sandbox (virtual environment)
                     
                FOR A QUICK RUN
