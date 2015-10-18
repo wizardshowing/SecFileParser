@@ -53,14 +53,25 @@ as needed.
 
 
                 LIBRARIES USED
-os,
-os.path,
-sys,
-glob,
-BeautifulSoup,
-pip3,
-python3,
-virtualenv,
-git,
-libxml,
+os
+
+os.path
+
+sys
+
+glob
+
+BeautifulSoup
+
+pip3
+
+python3
+
+virtualenv
+
+git
+
+libxml
+
 html5lib
+
