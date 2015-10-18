@@ -114,13 +114,14 @@ class SecFileParserCommand(object):
         found_files = glob.glob('{}*'.format(targeted_files))
         
         try:
+            #Remove old output if any
             os.remove(self.paragraphs_file)
         except:
             pass
         
         with open(self.paragraphs_file,"a") as _fd:
             _fd.write("[")
-        print("STARTING 123")
+
         for each_file in found_files:
             self.current_input_file = each_file
         
@@ -131,11 +132,9 @@ class SecFileParserCommand(object):
                     self.writeTextFile(each_object[1])
                 elif each_object[0] is SecFileReader.paragraph_version:
                     self.writePargrapsFile(each_object[1])
-        print("PRE ENDING A 123")
+
         with open(self.paragraphs_file,"a") as _fd:
-            print("PRE ENDING B 123")
             _fd.write("]")
-        print("ENDING 123")
         
 
 
