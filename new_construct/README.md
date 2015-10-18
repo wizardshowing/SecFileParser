@@ -40,14 +40,19 @@ and run it with the sample SEC filling document.
 You will find the sample document in SecFileParser/new_construct/input/
 Output documents will be in SecFileParser/new_construct/output/
 
+You can add arbitrary SEC fillings into SecFileParser/new_construct/input/
+as needed.
+
 
                 LIBRARIES USED
-os
-os.path
-sys
-glob
-BeautifulSoup
-pip3
-python3
-virtualenv
-git
+os,
+os.path,
+sys,
+glob,
+BeautifulSoup,
+pip3,
+python3,
+virtualenv,
+git,
+libxml,
+html5lib
