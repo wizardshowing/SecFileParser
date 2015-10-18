@@ -43,6 +43,11 @@ class SecFileReader(object):
         self.soup = None
         self.original_text_version = None
     
+    def __call__(self, file_name = None):
+        for each_item in self.parse(file_name):
+            yield each_item
+        yield
+            
     def parseTextVersion(self):
         """
             parseTextVersion: generator function
@@ -284,7 +289,7 @@ class SecFileParserCommand(object):
             
             #Iterate over the parse generator
             #and process thier yielded items
-            for each_object in self.parser.parse(self.current_input_file):
+            for each_object in self.parser(self.current_input_file):
                 #if the parser yeilds none, do nothing
                 if each_object is None:
                     continue
@@ -312,7 +317,6 @@ if __name__ == '__main__':
         #Execute the command 
         runner.execute()
     except Exception as e:
-        #If any error occur, print a stack trace and exit
+        #print error if any, and then exit
         print("exception: {}".format(e))
-        raise
         sys.exit(2)
