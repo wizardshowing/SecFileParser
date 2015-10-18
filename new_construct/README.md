@@ -23,6 +23,7 @@ For a quick run, execute the following on your terminal:
 
 
 1) cd ~
+
 2) git clone https://github.com/alchemiccoruja/SecFileParser.git;
 3) cd SecFileParser;
 4) source bin/activate;
