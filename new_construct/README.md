@@ -24,11 +24,16 @@ For a quick run, execute the following on your terminal:
 
 1) cd ~
 
-2) git clone https://github.com/alchemiccoruja/SecFileParser.git;
-3) cd SecFileParser;
-4) source bin/activate;
-5) bin/python3 new_construct/runner.py  new_construct/input/ new_construct/output/;
-6) ls -lrt new_construct/output/;
+2) git clone https://github.com/alchemiccoruja/SecFileParser.git
+
+3) cd SecFileParser
+
+4) source bin/activate
+
+5) bin/python3 new_construct/runner.py  new_construct/input/ new_construct/output/
+
+6) ls -lrt new_construct/output/
+
 
                 MORE EXPLANATION
 The commands will download the SecFilParser git repository
