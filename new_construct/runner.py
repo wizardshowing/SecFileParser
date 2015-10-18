@@ -1,11 +1,31 @@
 #!/usr/bin/env python3
+##runner.py
+##An instance of the __main__ function
+##for parsing a raw SEC Filling in HTML format
+##into two distinct outputs.
+##One output file is the raw text from the SEC filling
+##without the HTML tags.  The second output is all the
+##text/paragraphs from the Sec filling that contained dollar
+##signs ($)
 
 import os
 import os.path
 import sys
 import glob
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup 
 
+##SecFileReader: A wrapper on the Beautiful Soup Python library,
+##for pulling data out of Sec filling documents in HTML format.
+##Specifically, it uses the Python html5lib parser.
+##It takes a full path to the intended SEC Filling as input.
+##The class operates as a Python generator. Upon reading the
+##input file, it 'yield' two distinct types of tuples. One
+##of the tuples contain all the text within the SEC HTML documents
+##with the HTML stripped off, and delimited by new lines (\n)
+##The second type of tuple contain the parapgraphs (div) items
+##of the parse tree that contain the dollar sign ($), excluding
+##paragraphs that are contained within HTML tables.  The client
+##could then consume the yielded tuples as needed.
 class SecFileReader(object):
     text_version = "text_version"
     paragraph_version = 'paragraph_version'
@@ -13,41 +33,87 @@ class SecFileReader(object):
     start_location = 'start_location'
     end_location = 'end_location'
     target_text = None
+    
     def __init__(self):
+        """
+            Constructor to instantiate objects,
+            and initialze pertinent atributes.
+        """
         self.file_name = None
         self.soup = None
         self.original_text_version = None
     
     def parseTextVersion(self):
-        if not self.soup: yield None
-        self.target_text = self.soup.get_text("\n")
-        yield (self.text_version, self.target_text)
+        """
+            parseTextVersion: generator function
+            Assuming that the self.soup attribute has been
+            initialized with a BeautifulSoup  object, this
+            generator function yield a tuple object containing
+            the raw text within the SEC filling.  The HTML is
+            stripped off using the Beautiful Soup get_text function;
+            The resulting text is delimitted by new lines (\n).
+            The tuple is in the form (OUTPUTTYPE,OUTPUT)
+            In this case, the OUTPUTTYPE is 'text_version'.
+            And OUTPUT is the html-stripped text document.
+        """
+        #yield None is the self.soup object hasn't been initialize
+        if not self.soup:
+            yield None
+        else:
+            #yield a tuple containing only the non-html
+            #text within the SEC filling document
+            yield (self.text_version, self.soup.get_text("\n"))
+        yield
     
     def parseParagraphs(self):
-        if not self.soup: yield None
-        text_version = self.soup.get_text()
+        """
+            parseParagraphs: generator function.
+            Assuming that the self.soup attribute has been
+            initialized with a BeautifulSoup  object, this
+            generator function 'yield' tuple objects containing
+            raw text paragraphs/divs within the SEC filling.
+            It only yileds paragraphs that contain the dollar
+            sign ($).  It excludes all paragraphs that are
+            within table elements within the html document.
+            The tuple is in the form (OUTPUT_TYPE,
+            {OUTPUT_TEXT: 'The actual raw text document,
+             START_INDEX: 'Index location of the paragrah within
+                           whole raw text document,
+             END_INDEXX
+            }
+            )
+            In this case, the OUTPUTTYPE is 'paragraph_version'.
+            And OUTPUT is a paragraph containing a $ symbol.
+        """
         
-        def paragraph_is_qualified(tag, tag_content = None):
+        if not self.soup:
+            yield None
+        
+        def paragraph_is_qualified(tag):
+            """
+                An auxillary fucntion to check if a given
+                tag (paragraph node on the parse tree) containes
+                a dollar sign ($).  If the paragraph does contain
+                a dollar sign, an extra check is made to ensure that
+                it is not within a table element (<table>) within the
+                parsed tree.
+            """
             retval = False
             parents = []
-            #Check if this particular tag contains a 
+            
+            #Check if this particular tag contains a
+            #dollar sign ($)
             if tag.get_text().find("$") != -1:
                 
                 parents = tag.find_parents(name="table")
                 #import pdb;pdb.set_trace()
                 if len(parents) == 0:
                         retval = True
-            #if retval is True:
-            #    print("good tag: {}".format(tag.get_text()))
-            #    print("good tag.parents: {}\n---------------------".format(parents))
             return retval
         
         #No paragraph tags (<p>) in the sample document
         #So we are going off the <div> tags
-        #
-        only_paragraph_tags = self.soup.find_all("div")
-        
-        for each_tag in only_paragraph_tags:
+        for each_tag in self.soup.find_all("div"):
 
             if paragraph_is_qualified(each_tag) is True:
                 _text = each_tag.get_text()
