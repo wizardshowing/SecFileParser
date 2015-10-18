@@ -10,9 +10,10 @@ from bs4 import (BeautifulSoup,
 class SecFileReader(object):
     text_version = "text_version"
     paragraph_version = 'paragraph_version'
+    paragraph_text = 'text'
     start_location = 'start_location'
     end_location = 'end_location'
-    target_text = 'text'
+    target_text = None
     def __init__(self):
         self.file_name = None
         self.soup = None
@@ -20,8 +21,8 @@ class SecFileReader(object):
     
     def parseTextVersion(self):
         if not self.soup: yield None
-        self.text_version = self.soup.get_text("\n")
-        yield (self.text_version, self.text_version)
+        self.target_text = self.soup.get_text("\n")
+        yield (self.text_version, self.target_text)
     
     def parseParagraphs(self):
         if not self.soup: yield None
@@ -31,14 +32,15 @@ class SecFileReader(object):
             retval = False
             parents = []
             #Check if this particular tag contains a 
-            if tag.get_text().find("$") >=0:
-                parents = [each_parent.name for each_parent in tag.parents]
-                if 'table' not in parents and (tag.get_text().strip()):
+            if tag.get_text().find("$") != -1:
+                
+                parents = tag.find_parents(name="table")
+                #import pdb;pdb.set_trace()
+                if len(parents) == 0:
                         retval = True
-            
-            if retval is True:
-                print("good tag: {}".format(tag.get_text()))
-                print("good tag.parents: {}\n---------------------".format(parents))
+            #if retval is True:
+            #    print("good tag: {}".format(tag.get_text()))
+            #    print("good tag.parents: {}\n---------------------".format(parents))
             return retval
         
         #No paragraph tags (<p>) in the sample document
@@ -47,17 +49,19 @@ class SecFileReader(object):
         only_paragraph_tags = self.soup.find_all("div")
         
         for each_tag in only_paragraph_tags:
-            for each_content in each_tag.contents:
-                if paragraph_is_qualified(each_tag):
-                    _text = each_content.get_text()
-                    _start_location = self.original_text_version.find(_text)
-                    _end_location = _start_location + len(_text)
-                    retval = {
-                        self.target_text: _text,
-                        self.start_location: _start_location,
-                        self.end_location: _end_location
-                    }
-                    yield (self.paragraph_version,retval)
+
+            if paragraph_is_qualified(each_tag) is True:
+                _text = each_tag.get_text()
+                _start_location = self.original_text_version.find(_text)
+                _end_location = _start_location + len(_text)
+                #import pdb; pdb.set_trace()
+                
+                retval = {
+                    self.paragraph_text: _text,
+                    self.start_location: _start_location,
+                    self.end_location: _end_location
+                }
+                yield (self.paragraph_version,retval)
     
     def parse(self, file_name = None):
         self.file_name = file_name
@@ -65,7 +69,7 @@ class SecFileReader(object):
             yield None
         with open(self.file_name) as _fd:
             self.soup = BeautifulSoup(_fd,"html.parser")
-            self.original_text_version = str(self.soup)
+            self.original_text_version = self.soup.get_text()
             #yieeld text file items
             for each_object in self.parseTextVersion():
                 yield each_object
@@ -96,7 +100,7 @@ class SecFileParserCommand(object):
         with open(self.paragraphs_file,"a") as _fd:
             _fd.write("{}text:{}\nstart:{}\nend:{}\n{}".format(
                 "\n\t{\n\t",
-                file_content[SecFileReader.target_text],
+                file_content[SecFileReader.paragraph_text],
                 file_content[SecFileReader.start_location],
                 file_content[SecFileReader.end_location],
                 "\n\t}\n\t"
@@ -116,20 +120,22 @@ class SecFileParserCommand(object):
         
         with open(self.paragraphs_file,"a") as _fd:
             _fd.write("[")
-        
+        print("STARTING 123")
         for each_file in found_files:
             self.current_input_file = each_file
         
             for each_object in self.parser.parse(self.current_input_file):
-                if each_object is None: return
-                
-                if each_object[0] is SecFileReader.text_version:
+                if each_object is None:
+                    continue
+                elif each_object[0] is SecFileReader.text_version:
                     self.writeTextFile(each_object[1])
                 elif each_object[0] is SecFileReader.paragraph_version:
                     self.writePargrapsFile(each_object[1])
-        
+        print("PRE ENDING A 123")
         with open(self.paragraphs_file,"a") as _fd:
+            print("PRE ENDING B 123")
             _fd.write("]")
+        print("ENDING 123")
         
 
 
