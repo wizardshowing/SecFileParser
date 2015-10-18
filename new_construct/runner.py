@@ -52,8 +52,8 @@ class SecFileReader(object):
             the raw text within the SEC filling.  The HTML is
             stripped off using the Beautiful Soup get_text function;
             The resulting text is delimitted by new lines (\n).
-            The tuple is in the form (OUTPUTTYPE,OUTPUT)
-            In this case, the OUTPUTTYPE is 'text_version'.
+            The tuple is in the form (OUTPUT_TYPE,OUTPUT)
+            In this case, the OUTPUT_TYPE is 'text_version'.
             And OUTPUT is the html-stripped text document.
         """
         #yield None is the self.soup object hasn't been initialize
@@ -77,9 +77,10 @@ class SecFileReader(object):
             within table elements within the html document.
             The tuple is in the form (OUTPUT_TYPE,
             {OUTPUT_TEXT: 'The actual raw text document,
-             START_INDEX: 'Index location of the paragrah within
-                           whole raw text document,
-             END_INDEXX
+             START_INDEX: 'Index location of the paragrah sub-string
+                           within the whole raw text document,
+             END_INDEX: 'end location of the paragrah sub-string
+                        within the whole raw text document,
             }
             )
             In this case, the OUTPUTTYPE is 'paragraph_version'.
@@ -106,7 +107,6 @@ class SecFileReader(object):
             if tag.get_text().find("$") != -1:
                 
                 parents = tag.find_parents(name="table")
-                #import pdb;pdb.set_trace()
                 if len(parents) == 0:
                         retval = True
             return retval
@@ -129,16 +129,39 @@ class SecFileReader(object):
                 yield (self.paragraph_version,retval)
     
     def parse(self, file_name = None):
+        """
+            parse: generator function.
+            Given the full path to a certain SEC filling
+            document, this function opens the file and
+            instantiates BeautifulSoup object.  The BeautifulSoup
+            object is instructed to use the Python html5lib parser.
+            This function calls the parseTextVersion and
+            parseParagraphs and yields thier outputs to the client/caller
+            routine.
+             
+        """
+        #Get the full path name of the targeted file to parse
         self.file_name = file_name
+        
+        #yield None is file name is not provided
         if not self.file_name:
             yield None
+        #Open the input file
         with open(self.file_name) as _fd:
+            #Instantiate the BeautifulSoup object
+            #and get a copy of the text version
+            #of the HTML document.
             self.soup = BeautifulSoup(_fd,"html5lib")
             self.original_text_version = self.soup.get_text()
-            #yieeld text file items
+            
+            #yield the whole document as a text string.
+            #This text string has all the html tags removed
             for each_object in self.parseTextVersion():
                 yield each_object
-            #yield paragraph file items
+            
+            #yield paragraph the paragraph texts that
+            #contains the dollar sign, but are
+            #not descendants of <table> tags
             for each_object in self.parseParagraphs():
                 yield each_object
         yield 
