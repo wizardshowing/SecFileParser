@@ -25,6 +25,7 @@ For a quick run, execute the following on your terminal:
 1) cd ~
 
 2) git clone https://github.com/alchemiccoruja/SecFileParser.git
+
  NOTE: If you dont have git installed, you can
    download a zip file of the repository
    here https://github.com/alchemiccoruja/SecFileParser
