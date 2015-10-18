@@ -6,7 +6,7 @@
 ##One output file is the raw text from the SEC filling
 ##without the HTML tags.  The second output is all the
 ##text/paragraphs from the Sec filling that contained dollar
-##signs ($)
+##signs ($).  Paragraphs that are within <table> tags are ignored
 
 import os
 import os.path
@@ -15,7 +15,7 @@ import glob
 from bs4 import BeautifulSoup 
 
 ##SecFileReader: A wrapper on the Beautiful Soup Python library,
-##for pulling data out of Sec filling documents in HTML format.
+##for pulling data out of SEC filling documents in HTML format.
 ##Specifically, it uses the Python html5lib parser.
 ##It takes a full path to the intended SEC Filling as input.
 ##The class operates as a Python generator. Upon reading the
@@ -89,7 +89,7 @@ class SecFileReader(object):
             }
             )
             In this case, the OUTPUTTYPE is 'paragraph_version'.
-            And OUTPUT is a paragraph containing a $ symbol.
+            And OUTPUT is a paragraph containing a '$' symbol.
         """
         
         if not self.soup:
@@ -140,8 +140,8 @@ class SecFileReader(object):
             document, this function opens the file and
             instantiates BeautifulSoup object.  The BeautifulSoup
             object is instructed to use the Python html5lib parser.
-            This function calls the parseTextVersion and
-            parseParagraphs and yields thier outputs to the client/caller
+            This function calls 'parseTextVersion' and
+            'parseParagraphs' and yields thier outputs to the client/caller
             routine.
              
         """
@@ -174,7 +174,7 @@ class SecFileReader(object):
 ##SecFileParserCommand: implements a command that is executed
 ##by the __main__ routine to carry out the parsing of SEC filling
 ##documents that are in HTML format.  It takes two inputs on it
-##constructor, input_dir, and output_dir.
+##constructor, 'input_dir', and 'output_dir'.
 ##The value for input_dir should be a full path to a directory
 ##containing the targeted SEC fillings
 ##i.e /home/osman/dev/job_hunting/SecFileParser/new_construct/input/
@@ -185,11 +185,11 @@ class SecFileReader(object):
 ##There will be a corresponding output file /home/osman/dev/job_hunting/SecFileParser/new_construct/output/bmi-20131231x10k.txt
 ##which contains it text version with the HTML tags stripped off.
 ##The text version is delimitted with new lines (\n)
-##There will be a pargraphs.txt file within the output file.
+##There will be a pargraphs.txt file within the output directory.
 ##i.e /home/osman/dev/job_hunting/SecFileParser/new_construct/output/paragraph.txt
-##The paragraph.txt is a cumulative out put of all the paragraphs from all inputed
+##The paragraph.txt is a cumulative output of all the paragraphs from all inputed
 ##files.  These paragraphs are the ones that contain dollar signs ($).
-##Thesee paragrpahs also are not decendants of any <table> htmls elements
+##Paragraphs that are decendants of any <table> htmls element are ignored
 class SecFileParserCommand(object):
     def __init__(self, input_dir = None, output_dir = None):
         """
@@ -208,7 +208,7 @@ class SecFileParserCommand(object):
     def writeTextFile(self,file_content):
         """ 
             This function is a text version of a SEC filling with the
-            all HTML tags removeed. It determines the appropriate
+            all HTML tags removed. It determines the appropriate
             corresponding output name, and write the 'text'
             to the file.
         """
@@ -263,7 +263,7 @@ class SecFileParserCommand(object):
             The main execution function.
             This function actually executes necessary
             sub-routines necessary to carry out the parsing
-            SEC filling douments
+            of SEC filling html douments
         """
         #Glob the input directory and get a list of all
         #target SEC fillings to parse

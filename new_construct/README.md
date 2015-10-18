@@ -72,3 +72,6 @@ html5lib
                 MODULE DOCUMENTATION
 On a web browser, open SecFileParser/new_construct/docs/new_construct.runner.html
 
+
+                APPROXIMATE TOTAL TIME WORKING ON THE EXERCISE
+About 24 total hours.
