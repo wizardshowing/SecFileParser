@@ -166,9 +166,30 @@ class SecFileReader(object):
                 yield each_object
         yield 
 
+##SecFileParserCommand: implements a command that is executed
+##by the __main__ routine to carry out the parsing of SEC filling
+##documents that are in HTML format.  It takes two inputs on it
+##constructor, input_dir, and output_dir.
+##The value for input_dir should be a full path to a directory
+##containing the targeted SEC fillings
+##i.e /home/osman/dev/job_hunting/SecFileParser/new_construct/input/
+##The value for output_dir should be a full path to a directory
+##where the parsed files will be written.
+##i.e /home/osman/dev/job_hunting/SecFileParser/new_construct/output/
+##For each input file /home/osman/dev/job_hunting/SecFileParser/new_construct/output/bmi-20131231x10k.htm
+##There will be a corresponding output file /home/osman/dev/job_hunting/SecFileParser/new_construct/output/bmi-20131231x10k.txt
+##which contains it text version with the HTML tags stripped off.
+##The text version is delimitted with new lines (\n)
+##There will be a pargraphs.txt file within the output file.
+##i.e /home/osman/dev/job_hunting/SecFileParser/new_construct/output/paragraph.txt
+##The paragraph.txt is a cumulative out put of all the paragraphs from all inputed
+##files.  These paragraphs are the ones that contain dollar signs ($).
+##Thesee paragrpahs also are not decendants of any <table> htmls elements
 class SecFileParserCommand(object):
     def __init__(self, input_dir = None, output_dir = None):
-        "constructure"
+        """
+            Constructor to initialize the the parser command
+        """
         self.input_dir = input_dir
         self.output_dir = output_dir
         self.parser = SecFileReader()
@@ -177,18 +198,46 @@ class SecFileParserCommand(object):
         self.added_indecies = []
     
     def writeTextFile(self,file_content):
-        if not self.current_input_file: return
+        """ 
+            This function is a text version of a SEC filling with the
+            all HTML tags removeed. It determines the appropriate
+            corresponding output name, and write the 'text'
+            to the file.
+        """
+        #Return if not targeted file has not ben set
+        if not self.current_input_file:
+            return
+        #Determine the appropriate file name for the output
         old_filename = os.path.split(self.current_input_file)[1]
         old_filename = old_filename[:old_filename.find(".htm")]
         new_file_name = "{}{}.txt".format(self.output_dir,old_filename)
+        
+        #Write the text to file
         with open(new_file_name,"w") as _fd:
             _fd.write(file_content)
     
     def writePargrapsFile(self,file_content):
+        """ 
+            This function takes a 'qualified paragraph text'
+            as input.  The text contain a dollar symbol, and
+            is not a decendant of any <table> tag on the original
+            HTML document.  It then append the text to the dedicated
+            paragraphs.txt file for accumulation.
+            'file_content' is a Python dictionay in the following format:
+            (
+             'TEXT': 'text from file......',
+             'START_LOCATION': 'the starting index of the text within the
+                                whole text document (non-html)',
+             'END_LOCATION': 'the ending index of the text within the
+                                whole text document (non-html)'
+            )
+        """
+        
         #work-around to prevent multiple inserts for now
         if file_content[SecFileReader.start_location] in self.added_indecies:
             return
         else:
+            #Write the text to file
             with open(self.paragraphs_file,"a") as _fd:
                 _fd.write("{}text:{}\nstart:{}\nend:{}\n{}".format(
                     "\n\t{\n\t",
@@ -202,8 +251,14 @@ class SecFileParserCommand(object):
                 self.added_indecies.append(file_content[SecFileReader.start_location])
     
     def execute(self):
-        """The main execution function.
         """
+            The main execution function.
+            This function actually executes necessary
+            sub-routines necessary to carry out the parsing
+            SEC filling douments
+        """
+        #Glob the input directory and get a list of all
+        #target SEC fillings to parse
         targeted_files = '{}*'.format(self.input_dir)
         found_files = glob.glob('{}*'.format(targeted_files))
         
@@ -213,36 +268,51 @@ class SecFileParserCommand(object):
         except:
             pass
         
+        #Start by addind '[' to the start of the file,
+        #as all subsequent contents will be within am [] block
         with open(self.paragraphs_file,"a") as _fd:
             _fd.write("[")
 
+        #Iterate over the files in the input
+        #directory for processing
         for each_file in found_files:
+            #Note of the current file being processed
+            #and clear the indices of paragraps processed
+            #so far.
             self.current_input_file = each_file
             self.added_indecies = []
-        
+            
+            #Iterate over the parse generator
+            #and process thier yielded items
             for each_object in self.parser.parse(self.current_input_file):
+                #if the parser yeilds none, do nothing
                 if each_object is None:
                     continue
                 elif each_object[0] is SecFileReader.text_version:
+                    #If a tuple is yield containing the whole document
+                    #in full-text format (htmls tags are strippe), then
+                    #write the content to a dedicated text file in the
+                    #output directory
                     self.writeTextFile(each_object[1])
                 elif each_object[0] is SecFileReader.paragraph_version:
+                    #If an individual paragraph is yield (containing $ signs)
+                    #then write it to the cumulative paragraphs.txt file in the
+                    #output directory
                     self.writePargrapsFile(each_object[1])
-
+        #Close out the cumulative paragraphs.txt file with a ']'
         with open(self.paragraphs_file,"a") as _fd:
             _fd.write("]")
         
-
-
-
-def run(args):
-    """command line tool"""
+#Prevent the script from being run when imported into another module
+if __name__ == '__main__':
     try:
-        runner = SecFileParserCommand(args[0],args[1])
+        #Instantiate the SEC parser command
+        #Pass it the full paths to the input and output directories respectively
+        runner = SecFileParserCommand(sys.argv[1],sys.argv[2])
+        #Execute the command 
         runner.execute()
     except Exception as e:
+        #If any error occur, print a stack trace and exit
         print("exception: {}".format(e))
         raise
         sys.exit(2)
-
-if __name__ == '__main__':
-    run(sys.argv[1:])
