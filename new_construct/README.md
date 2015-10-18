@@ -26,7 +26,7 @@ For a quick run, execute the following on your terminal:
 
 2) git clone https://github.com/alchemiccoruja/SecFileParser.git
 
- NOTE: If you dont have git installed, you can
+   NOTE: If you dont have git installed, you can
    download a zip file of the repository
    here https://github.com/alchemiccoruja/SecFileParser
    Just look for  the 'DownloadZip' button
@@ -45,7 +45,9 @@ For a quick run, execute the following on your terminal:
                 MORE EXPLANATION
 The commands will download the SecFilParser git repository
 and run it with the sample SEC filling document.
+
 You will find the sample document in SecFileParser/new_construct/input/
+
 Output documents will be in SecFileParser/new_construct/output/
 
 You can add arbitrary SEC fillings into SecFileParser/new_construct/input/
