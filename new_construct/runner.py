@@ -202,6 +202,9 @@ class SecFileParserCommand(object):
         self.paragraphs_file = "{}pargraphs.txt".format(self.output_dir)
         self.added_indecies = []
     
+    def __call__(self):
+        self.execute()
+    
     def writeTextFile(self,file_content):
         """ 
             This function is a text version of a SEC filling with the
@@ -315,7 +318,7 @@ if __name__ == '__main__':
         #Pass it the full paths to the input and output directories respectively
         runner = SecFileParserCommand(sys.argv[1],sys.argv[2])
         #Execute the command 
-        runner.execute()
+        runner()
     except Exception as e:
         #print error if any, and then exit
         print("exception: {}".format(e))
